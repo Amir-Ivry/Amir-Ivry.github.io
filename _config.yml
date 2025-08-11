@@ -11,6 +11,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-scholar
 
 navbar:
   title: "Amir Ivry"
@@ -26,11 +27,16 @@ navbar:
     - title: "Contact"
       url: /contact/
 
-scholar: "https://scholar.google.com/"
+# jekyll-scholar configuration
+scholar:
+  source: _bibliography
+  bibliography: references.bib
+
 email: "sivry@technion.ac.il"
 github: "Amir-Ivry"
 linkedin: ""
 twitter: ""
+google_scholar: "https://scholar.google.com/"
 
 logo: /assets/img/portrait.jpg
 favicon: /assets/img/portrait.jpg
