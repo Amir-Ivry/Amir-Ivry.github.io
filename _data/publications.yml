@@ -1,0 +1,7 @@
+- title: "Example Paper Title"
+  venue: "Conference/Journal"
+  year: 2025
+  authors: "A. Ivry, Coauthors"
+  summary: "One-line contribution summary."
+  pdf: "/assets/pdf/recent_paper.pdf"
+  code: "https://github.com/"

@@ -1,0 +1,71 @@
+---
+title: "Amir Ivry"
+subtitle: "Speech & Audio ML — perceptual evaluation, diffusion maps, robust metrics"
+description: "Postdoctoral researcher and aspiring Assistant Professor; building statistically reliable, perceptually aligned evaluation methods for speech systems."
+url: "https://amir-ivry.github.io"
+baseurl: ""
+
+remote_theme: alshedivat/al-folio@v0.10.1
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+navbar:
+  title: "Amir Ivry"
+  left:
+    - title: "Publications"
+      url: /publications/
+    - title: "Projects"
+      url: /projects/
+    - title: "Talks"
+      url: /talks/
+    - title: "CV"
+      url: /cv/
+    - title: "Contact"
+      url: /contact/
+
+scholar: "https://scholar.google.com/"
+email: "sivry@technion.ac.il"
+github: "Amir-Ivry"
+linkedin: ""
+twitter: ""
+
+logo: /assets/img/portrait.jpg
+favicon: /assets/img/portrait.jpg
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope: {path: "", type: pages}
+    values:
+      layout: page
+      show_sidebar: false
+  - scope: {path: "index.md"}
+    values:
+      layout: home
+
+feed:
+  path: feed.xml
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  input: GFM
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: fab fa-github
+      url: "https://github.com/Amir-Ivry"
+    - label: "Google Scholar"
+      icon: ai ai-google-scholar
+      url: "https://scholar.google.com/"
+    - label: "ORCID"
+      icon: ai ai-orcid
+      url: "https://orcid.org/"
+---
