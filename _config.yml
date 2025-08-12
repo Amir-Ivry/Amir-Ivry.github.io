@@ -4,6 +4,7 @@ subtitle: "Speech & Audio ML — perceptual evaluation, diffusion maps, robust m
 description: "Postdoctoral researcher and aspiring Assistant Professor; building statistically reliable, perceptually aligned evaluation methods for speech systems."
 url: "https://amir-ivry.github.io"
 baseurl: ""
+max_content_width: 1200px
 
 remote_theme: alshedivat/al-folio@v0.10.1
 plugins:
