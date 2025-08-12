@@ -54,7 +54,7 @@ defaults:
       show_sidebar: false
   - scope: {path: "index.md"}
     values:
-      layout: home
+      layout: about
 
 feed:
   path: feed.xml
