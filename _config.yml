@@ -17,6 +17,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+exclude:
+  - assets/css/main.scss
+
 # Defaults for posts
 defaults:
   - scope:
