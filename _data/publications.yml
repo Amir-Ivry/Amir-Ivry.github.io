@@ -1,7 +1,31 @@
-- title: "Example Paper Title"
-  venue: "Conference/Journal"
+- title: "Perceptual Match and Separation Metrics from Diffusion Maps"
+  authors: "Your Name, Coauthor A, Coauthor B"
+  venue: "IEEE/ACM Transactions on Audio, Speech, and Language Processing"
   year: 2025
-  authors: "A. Ivry, Coauthors"
-  summary: "One-line contribution summary."
-  pdf: "/assets/pdf/recent_paper.pdf"
-  code: "https://github.com/"
+  selected: true
+  links:
+    pdf: "https://arxiv.org/pdf/0000.00000.pdf"
+    arxiv: "https://arxiv.org/abs/0000.00000"
+    code: "https://github.com/your-github/pm-ps-metrics"
+    doi: "https://doi.org/10.0000/xxxx"
+    project: "https://your-username.github.io/pm-ps"
+
+- title: "Non-Asymptotic Confidence Bounds for Diffusion-Map-Based Perceptual Metrics"
+  authors: "Your Name, Coauthor C"
+  venue: "Proc. Interspeech"
+  year: 2024
+  selected: true
+  links:
+    pdf: "https://arxiv.org/pdf/0000.00001.pdf"
+    arxiv: "https://arxiv.org/abs/0000.00001"
+    code: "https://github.com/your-github/dm-bounds"
+
+- title: "Manifold-Aware Conditioning for Generative Audio Distortions"
+  authors: "Your Name, Coauthor D, Coauthor E"
+  venue: "ICASSP"
+  year: 2023
+  selected: false
+  links:
+    pdf: "https://arxiv.org/pdf/0000.00002.pdf"
+    arxiv: "https://arxiv.org/abs/0000.00002"
+    code: "https://github.com/your-github/manifold-audio"

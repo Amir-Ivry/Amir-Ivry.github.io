@@ -1,78 +1,29 @@
----
-title: "Amir Ivry"
-subtitle: "Speech & Audio ML — perceptual evaluation, diffusion maps, robust metrics"
-description: "Postdoctoral researcher and aspiring Assistant Professor; building statistically reliable, perceptually aligned evaluation methods for speech systems."
-url: "https://amir-ivry.github.io"
-baseurl: ""
-max_content_width: 1200px
+title: Your Name
+tagline: Postdoctoral Researcher — Speech, Audio & ML
+description: Research in speech, audio perception, diffusion maps, and machine learning. Clean, simple, and up-to-date.
+baseurl: ""   # leave empty for user.github.io; set to "/project-name" for project pages
+url: "https://your-username.github.io"
+email: you@university.edu
+github_username: your-github
+google_scholar: https://scholar.google.com/citations?user=YOURID
+orcid: https://orcid.org/0000-0000-0000-0000
+linkedin: https://www.linkedin.com/in/your-linkedin/
+twitter: https://x.com/your-handle
 
-remote_theme: alshedivat/al-folio@v0.10.1
+permalink: /:categories/:year/:month/:day/:title/
+
 plugins:
-  - jekyll-remote-theme
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-scholar
 
-navbar:
-  title: "Amir Ivry"
-  left:
-    - title: "Publications"
-      url: /publications/
-    - title: "Projects"
-      url: /projects/
-    - title: "Talks"
-      url: /talks/
-    - title: "CV"
-      url: /cv/
-    - title: "Contact"
-      url: /contact/
-
-# jekyll-scholar configuration
-scholar:
-  source: _bibliography
-  bibliography: references.bib
-
-email: "sivry@technion.ac.il"
-github: "Amir-Ivry"
-linkedin: ""
-twitter: ""
-google_scholar: https://scholar.google.com/citations?user=rQCVwksAAAAJ&hl=en&oi=ao
-
-logo: /assets/img/portrait.jpg
-favicon: /assets/img/portrait.jpg
-
-collections:
-  pages:
-    output: true
-    permalink: /:path/
-
+# Defaults for posts
 defaults:
-  - scope: {path: "", type: pages}
+  - scope:
+      path: ""
+      type: "posts"
     values:
-      layout: page
-      show_sidebar: false
-  - scope: {path: "index.md"}
-    values:
-      layout: about
-
-feed:
-  path: feed.xml
-
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
-  input: GFM
-
-footer:
-  links:
-    - label: "GitHub"
-      icon: fab fa-github
-      url: "https://github.com/Amir-Ivry"
-    - label: "Google Scholar"
-      icon: ai ai-google-scholar
-      url: "https://scholar.google.com/"
-    - label: "ORCID"
-      icon: ai ai-orcid
-      url: "https://orcid.org/"
----
+      layout: post
+      author: Your Name
+      toc: false
+      comments: false

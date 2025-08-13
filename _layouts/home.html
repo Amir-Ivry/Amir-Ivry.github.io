@@ -1,0 +1,70 @@
+---
+# This layout renders the home page sections.
+---
+{% assign about_has_content = content | strip | size | plus: 0 %}
+<section class="hero">
+  <div class="hero-grid">
+    <div class="hero-photo">
+      <img src="{{ '/assets/img/profile.svg' | relative_url }}" alt="Portrait of {{ site.title }}">
+    </div>
+    <div class="hero-text">
+      <h1 class="no-top">{{ site.title }}</h1>
+      {% if site.tagline %}<p class="lead">{{ site.tagline }}</p>{% endif %}
+      <div class="contact-row">
+        {% if site.email %}<a class="btn" href="mailto:{{ site.email }}">Email</a>{% endif %}
+        {% if site.google_scholar %}<a class="btn btn-ghost" href="{{ site.google_scholar }}">Scholar</a>{% endif %}
+        {% if site.github_username %}<a class="btn btn-ghost" href="https://github.com/{{ site.github_username }}">GitHub</a>{% endif %}
+        {% if site.linkedin %}<a class="btn btn-ghost" href="{{ site.linkedin }}">LinkedIn</a>{% endif %}
+        {% if site.orcid %}<a class="btn btn-ghost" href="{{ site.orcid }}">ORCID</a>{% endif %}
+        {% if site.twitter %}<a class="btn btn-ghost" href="{{ site.twitter }}">X</a>{% endif %}
+      </div>
+      {% if about_has_content > 0 %}
+      <div class="about">
+        {{ content }}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Selected Publications</h2>
+  <ul class="pub-list">
+    {% assign selected = site.data.publications | where: "selected", true %}
+    {% assign sorted = selected | sort: "year" | reverse %}
+    {% for p in sorted limit:5 %}
+      <li>
+        <div class="pub-title">
+          {% assign primary = p.links.pdf | default: p.links.doi | default: p.links.arxiv | default: p.links.project %}
+          {% if primary %}<a href="{{ primary }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
+        </div>
+        <div class="pub-authors">{{ p.authors | replace: "Your Name", "<strong>Your Name</strong>" }}</div>
+        <div class="pub-venue">{{ p.venue }}, {{ p.year }}</div>
+        <div class="pub-links">
+          {% if p.links.pdf %}<a class="badge" href="{{ p.links.pdf }}">PDF</a>{% endif %}
+          {% if p.links.arxiv %}<a class="badge" href="{{ p.links.arxiv }}">arXiv</a>{% endif %}
+          {% if p.links.doi %}<a class="badge" href="{{ p.links.doi }}">DOI</a>{% endif %}
+          {% if p.links.code %}<a class="badge" href="{{ p.links.code }}">Code</a>{% endif %}
+          {% if p.links.project %}<a class="badge" href="{{ p.links.project }}">Project</a>{% endif %}
+          {% if p.links.slides %}<a class="badge" href="{{ p.links.slides }}">Slides</a>{% endif %}
+          {% if p.links.poster %}<a class="badge" href="{{ p.links.poster }}">Poster</a>{% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+  <p><a class="btn" href="{{ '/publications/' | relative_url }}">View all publications</a></p>
+</section>
+
+<section>
+  <h2>News</h2>
+  <ul class="news-list">
+    {% assign news_posts = site.categories.news | sort: 'date' | reverse %}
+    {% for post in news_posts limit:5 %}
+      <li>
+        <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  <p><a class="btn btn-ghost" href="{{ '/news/' | relative_url }}">All news</a> · <a class="btn btn-ghost" href="{{ '/feed.xml' | relative_url }}">RSS</a></p>
+</section>

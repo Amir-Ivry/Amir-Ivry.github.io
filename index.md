@@ -1,19 +1,11 @@
 ---
 layout: home
+title: "Home"
+permalink: /
 ---
 
-# Hi, I'm Amir Ivry
+I’m a postdoctoral researcher working at the intersection of **speech**, **audio perception**, and **machine learning**. I build evaluation methods and metrics that connect signal processing with human perception, and I like turning theoretical results into working tools.
 
-I’m a postdoctoral researcher working on **speech & audio machine learning**, with a focus on **perceptually aligned, statistically reliable evaluation** of speech systems. I’m currently on the academic job market, aiming for an Assistant Professor role.
+Right now I’m focusing on: diffusion maps for perceptual embeddings, confidence bounds for perceptual metrics, and practical tooling for reliable evaluation of speech separation and enhancement systems.
 
-<div class="highlights">
-
-- 🔬 **Recent**: “Title of Recent Paper” — [PDF](/assets/pdf/recent_paper.pdf) · [Code](https://github.com/)
-- 🧪 **Project**: PM/PS metrics — reproducible pipelines and demos. [Code](https://github.com/)
-- 🎤 **Talk**: “Perceptually Aligned Evaluation for Speech Systems” — [Slides](/assets/pdf/talk_eval.pdf)
-
-</div>
-
-> **Interests:** speech & spoken language processing, perceptual evaluation, diffusion maps, robust metrics.
-
-**Contact:** sivry@technion.ac.il · [CV](/cv/) · [Google Scholar](https://scholar.google.com/)
+If you’re looking for a quick overview, skim the *Selected Publications* and *News* below, or jump to the full [Publications](/publications/) and [CV](/cv/).
