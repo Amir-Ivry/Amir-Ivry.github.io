@@ -1,37 +1,25 @@
 ---
 layout: page
-title: Publications
-permalink: /publications/
+title: "Publications"
+nav: publications
+description: "Selected and full list, reverse chronological."
 ---
 
-Below is a complete list. Edit `_data/publications.yml` to update.
-The **Selected Publications** on the home page are controlled by `selected: true` entries.
-
-{% assign pubs = site.data.publications | sort: "year" | reverse %}
-{% assign years = pubs | map: "year" | uniq %}
-{% for y in years %}
-### {{ y }}
-<ul class="pub-list">
-  {% for p in pubs %}
-    {% if p.year == y %}
-      <li>
-        <div class="pub-title">
-          {% assign primary = p.links.pdf | default: p.links.doi | default: p.links.arxiv | default: p.links.project %}
-          {% if primary %}<a href="{{ primary }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
-        </div>
-        <div class="pub-authors">{{ p.authors | replace: "Your Name", "<strong>Your Name</strong>" }}</div>
-        <div class="pub-venue">{{ p.venue }}, {{ p.year }}</div>
-        <div class="pub-links">
-          {% if p.links.pdf %}<a class="badge" href="{{ p.links.pdf }}">PDF</a>{% endif %}
-          {% if p.links.arxiv %}<a class="badge" href="{{ p.links.arxiv }}">arXiv</a>{% endif %}
-          {% if p.links.doi %}<a class="badge" href="{{ p.links.doi }}">DOI</a>{% endif %}
-          {% if p.links.code %}<a class="badge" href="{{ p.links.code }}">Code</a>{% endif %}
-          {% if p.links.project %}<a class="badge" href="{{ p.links.project }}">Project</a>{% endif %}
-          {% if p.links.slides %}<a class="badge" href="{{ p.links.slides }}">Slides</a>{% endif %}
-          {% if p.links.poster %}<a class="badge" href="{{ p.links.poster }}">Poster</a>{% endif %}
-        </div>
-      </li>
+<ul class="pubs">
+{% assign pubs = site.data.publications | sort: 'year' | reverse %}
+{% for p in pubs %}
+  <li class="pub">
+    <span class="pub-title"><a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a></span>
+    <span class="pub-authors">{{ p.authors }}</span>
+    <span class="pub-venue">— {{ p.venue }} {{ p.year }}</span>
+    {% if p.extra %}<span class="pub-extra"> · {{ p.extra }}</span>{% endif %}
+    {% if p.links %}
+    <span class="pub-links">
+      {% for k in p.links %}
+        <a href="{{ k.url }}" target="_blank" rel="noopener">{{ k.name }}</a>{% if forloop.last == false %} · {% endif %}
+      {% endfor %}
+    </span>
     {% endif %}
-  {% endfor %}
-</ul>
+  </li>
 {% endfor %}
+</ul>

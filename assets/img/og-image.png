@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <rect x="40" y="40" width="1120" height="550" fill="#f6f8fa" stroke="#e5e7eb"/>
+  <text x="100" y="220" font-size="64" font-family="Arial, Helvetica, sans-serif" fill="#111827">Firstname Lastname</text>
+  <text x="100" y="290" font-size="36" font-family="Arial, Helvetica, sans-serif" fill="#374151">Speech & Audio ML</text>
+  <text x="100" y="380" font-size="28" font-family="Arial, Helvetica, sans-serif" fill="#4b5563">Personal site</text>
+</svg>

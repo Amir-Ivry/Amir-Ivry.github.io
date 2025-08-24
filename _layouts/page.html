@@ -1,6 +1,12 @@
 ---
+layout: default
 ---
 <article class="page">
-  {% if page.title %}<h1 class="no-top">{{ page.title }}</h1>{% endif %}
-  {{ content }}
+  <header class="page-header">
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% if page.description %}<p class="page-desc">{{ page.description }}</p>{% endif %}
+  </header>
+  <div class="page-content">
+    {{ content }}
+  </div>
 </article>

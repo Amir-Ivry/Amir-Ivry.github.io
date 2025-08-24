@@ -1,18 +1,18 @@
 ---
 layout: page
-title: Blog
-permalink: /blog/
+title: "Blog"
+nav: blog
+description: "Occasional notes and updates."
 ---
 
-Occasional notes on research, evaluation, and tooling.
-
-{% assign posts = site.categories.blog | sort: 'date' | reverse %}
-{% if posts.size == 0 %}
-<p class="muted">No posts yet.</p>
-{% endif %}
-
-{% for post in posts %}
-<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-<p class="muted">{{ post.date | date: "%b %-d, %Y" }}</p>
-<p>{{ post.excerpt | strip_html | truncate: 220 }}</p>
-{% endfor %}
+<ul class="posts">
+  {% for post in site.posts %}
+    <li class="post-item">
+      <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+  {% if site.posts == empty %}
+    <li class="post-item dim">Add Markdown files in <code>_posts/</code> to publish blog posts.</li>
+  {% endif %}
+</ul>

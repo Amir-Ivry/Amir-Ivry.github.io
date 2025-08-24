@@ -1,0 +1,10 @@
+# Code projects to feature
+- name: "Perceptual Speech Metrics (PS/PM)"
+  description: "Reference implementation of PS/PM with diffusion-map embeddings and confidence bounds."
+  url: "https://github.com/USERNAME/pspm"
+  tags: ["speech", "metrics", "diffusion-maps"]
+
+- name: "Speech Distortion Manifold Toolkit"
+  description: "Generate and analyze manifold-aware speech distortions."
+  url: "https://github.com/USERNAME/sdmt"
+  tags: ["speech", "manifold"]

@@ -1,57 +1,15 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#0d6efd">
-    <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
-    <link rel="preload" href="{{ '/assets/css/style.css' | relative_url }}" as="style">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    {% seo %}
+    {% include head.html %}
   </head>
   <body>
     <a class="skip-link" href="#content">Skip to content</a>
-    <header class="site-header">
-      <div class="wrapper">
-        <div class="brand">
-          <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-          {% if site.tagline %}<div class="tagline">{{ site.tagline }}</div>{% endif %}
-        </div>
-        <nav class="site-nav" aria-label="Main">
-          <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
-          <a href="{{ '/publications/' | relative_url }}" {% if page.url contains '/publications/' %}aria-current="page"{% endif %}>Publications</a>
-          <a href="{{ '/news/' | relative_url }}" {% if page.url contains '/news/' %}aria-current="page"{% endif %}>News</a>
-          <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog/' %}aria-current="page"{% endif %}>Blog</a>
-          <a href="{{ '/cv/' | relative_url }}" {% if page.url contains '/cv/' %}aria-current="page"{% endif %}>CV</a>
-        </nav>
-      </div>
-    </header>
-
-    <main id="content" class="wrapper">
+    {% include header.html %}
+    <main id="content" class="container">
       {{ content }}
     </main>
-
-    <footer class="site-footer">
-      <div class="wrapper small">
-        <div>
-          © <span id="year">{{ 'now' | date: '%Y' }}</span> {{ site.title }}.
-          Built with <a href="https://pages.github.com/">GitHub Pages</a> &amp; <a href="https://jekyllrb.com/">Jekyll</a>.
-        </div>
-        <div class="foot-links">
-          {% if site.email %}<a href="mailto:{{ site.email }}">Email</a>{% endif %}
-          {% if site.google_scholar %}<a href="{{ site.google_scholar }}">Scholar</a>{% endif %}
-          {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}">GitHub</a>{% endif %}
-          {% if site.linkedin %}<a href="{{ site.linkedin }}">LinkedIn</a>{% endif %}
-          {% if site.orcid %}<a href="{{ site.orcid }}">ORCID</a>{% endif %}
-          {% if site.twitter %}<a href="{{ site.twitter }}">X</a>{% endif %}
-          <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
-        </div>
-      </div>
-    </footer>
-    <script>
-      // Reduce CLS by setting current year client-side in case build cache lags
-      document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
+    {% include footer.html %}
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
   </body>
 </html>

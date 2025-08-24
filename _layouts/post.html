@@ -1,7 +1,12 @@
 ---
+layout: default
 ---
 <article class="post">
-  <h1 class="no-top">{{ page.title }}</h1>
-  <p class="muted">{{ page.date | date: "%B %-d, %Y" }}</p>
-  <div class="post-content">{{ content }}</div>
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+  </header>
+  <div class="post-content">
+    {{ content }}
+  </div>
 </article>

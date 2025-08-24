@@ -1,32 +1,34 @@
-title: Your Name
-tagline: Postdoctoral Researcher — Speech, Audio & ML
-description: Research in speech, audio perception, diffusion maps, and machine learning. Clean, simple, and up-to-date.
-baseurl: ""   # leave empty for user.github.io; set to "/project-name" for project pages
-url: "https://your-username.github.io"
-email: you@university.edu
-github_username: your-github
-google_scholar: https://scholar.google.com/citations?user=YOURID
-orcid: https://orcid.org/0000-0000-0000-0000
-linkedin: https://www.linkedin.com/in/your-linkedin/
-twitter: https://x.com/your-handle
-
-permalink: /:categories/:year/:month/:day/:title/
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-exclude:
-  - assets/css/main.scss
-
-# Defaults for posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post
-      author: Your Name
-      toc: false
-      comments: false
+title: "Firstname Lastname"
+tagline: "Speech & Audio ML Researcher"
+description: "Short abstract: I build reliable perceptual evaluation methods for speech systems, diffusion-map embeddings, and non-asymptotic guarantees."
+# Replace USERNAME below with your GitHub username
+url: "https://USERNAME.github.io"
+baseurl: ""
+author:
+  name: "Firstname Lastname"
+  email: you@example.com
+  avatar: /assets/img/profile.jpg
+social:
+  twitter: yourhandle
+  github: USERNAME
+  scholar: "https://scholar.google.com/citations?user=XXXXXXXXXXX"
+  linkedin: "https://www.linkedin.com/in/yourprofile/"
+google_analytics: ""   # e.g., G-XXXXXXX (optional)
+permalink: /blog/:year/:month/:day/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+theme: null
+plugins: []
+# Navigation labels
+nav:
+  - title: Home
+    url: /
+  - title: Publications
+    url: /publications/
+  - title: Code
+    url: /code/
+  - title: Blog
+    url: /blog/
+  - title: CV
+    url: /cv/

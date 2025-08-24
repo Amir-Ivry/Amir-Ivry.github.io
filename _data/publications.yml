@@ -1,31 +1,29 @@
-- title: "Perceptual Match and Separation Metrics from Diffusion Maps"
-  authors: "Your Name, Coauthor A, Coauthor B"
-  venue: "IEEE/ACM Transactions on Audio, Speech, and Language Processing"
+# Edit this file to manage your publications.
+# Fields: title, authors, venue, year, link (primary), selected (true/false), extra (optional), links (optional list)
+- title: "Reliable Perceptual Evaluation for Speech Systems with Diffusion-Map Guarantees"
+  authors: "Firstname Lastname, Collaborator A, Collaborator B"
+  venue: "Preprint"
   year: 2025
+  link: "https://arxiv.org/abs/xxxx.xxxxx"
   selected: true
+  extra: "ArXiv"
   links:
-    pdf: "https://arxiv.org/pdf/0000.00000.pdf"
-    arxiv: "https://arxiv.org/abs/0000.00000"
-    code: "https://github.com/your-github/pm-ps-metrics"
-    doi: "https://doi.org/10.0000/xxxx"
-    project: "https://your-username.github.io/pm-ps"
+    - { name: "Paper", url: "https://arxiv.org/abs/xxxx.xxxxx" }
+    - { name: "Code", url: "https://github.com/USERNAME/REPO" }
+    - { name: "Project", url: "https://USERNAME.github.io/PROJECT" }
 
-- title: "Non-Asymptotic Confidence Bounds for Diffusion-Map-Based Perceptual Metrics"
-  authors: "Your Name, Coauthor C"
-  venue: "Proc. Interspeech"
+- title: "Mahalanobis Errors under Diffusion Map Truncation: Non-Asymptotic Bounds"
+  authors: "Firstname Lastname, Collaborator C"
+  venue: "Workshop"
   year: 2024
+  link: "https://example.com/paper2"
   selected: true
   links:
-    pdf: "https://arxiv.org/pdf/0000.00001.pdf"
-    arxiv: "https://arxiv.org/abs/0000.00001"
-    code: "https://github.com/your-github/dm-bounds"
+    - { name: "PDF", url: "https://example.com/paper2" }
 
-- title: "Manifold-Aware Conditioning for Generative Audio Distortions"
-  authors: "Your Name, Coauthor D, Coauthor E"
-  venue: "ICASSP"
+- title: "A Study on Frame-Level PS/PM Metrics"
+  authors: "Firstname Lastname, Collaborator D"
+  venue: "Conference"
   year: 2023
+  link: "https://example.com/paper3"
   selected: false
-  links:
-    pdf: "https://arxiv.org/pdf/0000.00002.pdf"
-    arxiv: "https://arxiv.org/abs/0000.00002"
-    code: "https://github.com/your-github/manifold-audio"
