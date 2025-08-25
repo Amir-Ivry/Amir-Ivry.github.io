@@ -1,3 +1,43 @@
+- title: "MAPSS: Manifold-based Assessment of Perceptual Source Separation"
+  authors: "Amir Ivry, Samuele Cornell, Shinji Watanabe"
+  venue: "Arxiv"
+  year: 2025
+  link: "https://arxiv.org/abs/2401.08887"
+  code: "https://github.com/Amir-Ivry/MAPSS-measures"
+  project: ""
+  video: ""
+  selected: true
+
+- title: "NOTSOFAR-1 challenge: New datasets, baseline, and tasks for distant meeting transcription"
+  authors: "Alon Vinnikov, Amir Ivry, Aviv Hurvitz, Igor Abramovski, Sharon Koubi, Ilya Gurvich, others"
+  venue: "interspeech"
+  year: 2024
+  link: "/assets/papers/notsofar_vinnikov.pdf"
+  code: "https://github.com/microsoft/NOTSOFAR1-Challenge/tree/main"
+  project: "https://www.chimechallenge.org/challenges/chime8/task2/index"
+  video: ""
+  selected: true
+
+- title: "A user-centric approach for deep residual-echo suppression in double-talk"
+  authors: "Amir Ivry, Israel Cohen, Baruch Berdugo"
+  venue: "IEEE/ACM Transactions on Audio, Speech, and Language Processing"
+  year: 2024
+  link: "/assets/papers/usercentric_ivry.pdf"
+  code: ""
+  project: ""
+  video: ""
+  selected: true
+
+- title: "Voice activity detection for transient noisy environment based on diffusion nets"
+  authors: "Amir Ivry, Baruch Berdugo, Israel Cohen"
+  venue: "IEEE Journal of Selected Topics in Signal Processing"
+  year: 2019
+  link: "/assets/papers/vad_ivry.pdf"
+  code: ""
+  project: ""
+  video: ""
+  selected: true
+  
 - title: "Enhancement of BCI classifiers through domain adaptation"
   authors: "Hadas Benisty, Daniel Furman, Talor Abramovich, Amir Ivry, Hillel Pratt"
   venue: "IEEE International Conference on the Science of Electrical Engineering (ICSEE)"
@@ -27,16 +67,6 @@
   project: ""
   video: ""
   selected: false
-
-- title: "Voice activity detection for transient noisy environment based on diffusion nets"
-  authors: "Amir Ivry, Baruch Berdugo, Israel Cohen"
-  venue: "IEEE Journal of Selected Topics in Signal Processing"
-  year: 2019
-  link: "/assets/papers/vad_ivry.pdf"
-  code: ""
-  project: ""
-  video: ""
-  selected: true
 
 - title: "Low power in situ AI calibration of a three-axial magnetic sensor"
   authors: "Roger Alimi, Elad Fisher, Amir Ivry, Alon Shavit, Eyal Weiss"
@@ -76,7 +106,7 @@
   code: ""
   project: ""
   video: ""
-  selected: true
+  selected: false
 
 - title: "Multiclass permanent magnets superstructure for indoor localization using artificial intelligence"
   authors: "Amir Ivry, Elad Fisher, Roger Alimi, Idan Mosseri, Kanna Nahir"
@@ -96,7 +126,7 @@
   code: ""
   project: ""
   video: ""
-  selected: true
+  selected: false
 
 - title: "Low power in-situ AI Calibration of a 3 Axial Magnetic Sensor"
   authors: "Roger Alimi, Elad Fisher, Amir Ivry, Alon Shavit, Eyal Weiss"
@@ -168,26 +198,6 @@
   video: ""
   selected: false
 
-- title: "Notsofar-1 challenge: New datasets, baseline, and tasks for distant meeting transcription"
-  authors: "Alon Vinnikov, Amir Ivry, Aviv Hurvitz, Igor Abramovski, Sharon Koubi, Ilya Gurvich, Shai Peer, Xiong Xiao, Benjamin Martinez Elizalde, Naoyuki Kanda, others"
-  venue: "arXiv preprint arXiv:2401.08887"
-  year: 2024
-  link: "https://arxiv.org/abs/2401.08887"
-  code: ""
-  project: ""
-  video: ""
-  selected: true
-
-- title: "A user-centric approach for deep residual-echo suppression in double-talk"
-  authors: "Amir Ivry, Israel Cohen, Baruch Berdugo"
-  venue: "IEEE/ACM Transactions on Audio, Speech, and Language Processing"
-  year: 2024
-  link: "https://doi.org/10.1109/TASLP.2024.xxxxx" # replace with actual DOI
-  code: ""
-  project: ""
-  video: ""
-  selected: true
-
 - title: "E-URES: Efficient user-centric residual-echo suppression framework with a data-driven approach to reducing computational costs"
   authors: "Amir Ivry, Israel Cohen"
   venue: "IWAENC"
@@ -206,7 +216,7 @@
   code: ""
   project: ""
   video: ""
-  selected: true
+  selected: false
 
 - title: "E-URES 2.0: Efficient User-Centric Residual-Echo Suppression with a Lightweight Neural Network"
   authors: "Amir Ivry, Israel Cohen"
