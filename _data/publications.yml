@@ -118,16 +118,6 @@
   video: ""
   selected: false
 
-- title: "Hands-free Speech Communication Using Deep Neural Networks"
-  authors: "Amir Ivry"
-  venue: ""
-  year: ""
-  link: ""
-  code: ""
-  project: ""
-  video: ""
-  selected: false
-
 - title: "Deep learning interviews: hundreds of fully solved job interview questions from a wide range of key topics in AI"
   authors: "Shlomo Kashani, Amir Ivry"
   venue: "arXiv preprint arXiv:2201.00650"
