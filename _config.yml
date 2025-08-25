@@ -1,18 +1,18 @@
-title: "Firstname Lastname"
-tagline: "Speech & Audio ML Researcher"
-description: "Short abstract: I build reliable perceptual evaluation methods for speech systems, diffusion-map embeddings, and non-asymptotic guarantees."
+title: "Amir Ivry"
+tagline: "Researcher"
+description: "Hi! I’m a postdoctoral researcher working on making speech, music, and audio systems more reliable using human perception as a compass."
 # Replace USERNAME below with your GitHub username
-url: "https://USERNAME.github.io"
+url: "https://amir-ivry.github.io/"
 baseurl: ""
 author:
-  name: "Firstname Lastname"
-  email: you@example.com
-  avatar: /assets/img/profile.jpg
+  name: "Amir Ivry"
+  email: aivry@ieee.com
+  avatar: /assets/img/Amir Profile Pic.jpg
 social:
   twitter: yourhandle
-  github: USERNAME
-  scholar: "https://scholar.google.com/citations?user=XXXXXXXXXXX"
-  linkedin: "https://www.linkedin.com/in/yourprofile/"
+  github: Amir-Ivry
+  scholar: "https://scholar.google.com/citations?user=rQCVwksAAAAJ&hl=en&oi=ao"
+  linkedin: "https://www.linkedin.com/in/amirivry/"
 google_analytics: ""   # e.g., G-XXXXXXX (optional)
 permalink: /blog/:year/:month/:day/:title/
 markdown: kramdown
