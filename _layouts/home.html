@@ -50,3 +50,26 @@ layout: default
     {% endif %}
   </ul>
 </section>
+
+<div class="social-icons">
+  {% if site.author.email %}
+    <a href="mailto:{{ site.author.email }}" class="icon email" aria-label="Email">
+      <i class="fa fa-envelope"></i>
+    </a>
+  {% endif %}
+  {% if site.social.github %}
+    <a href="https://github.com/{{ site.social.github }}" target="_blank" class="icon github" aria-label="GitHub">
+      <i class="fa fa-github"></i>
+    </a>
+  {% endif %}
+  {% if site.social.scholar %}
+    <a href="{{ site.social.scholar }}" target="_blank" class="icon scholar" aria-label="Google Scholar">
+      <i class="fa fa-graduation-cap"></i>
+    </a>
+  {% endif %}
+  {% if site.social.linkedin %}
+    <a href="{{ site.social.linkedin }}" target="_blank" class="icon linkedin" aria-label="LinkedIn">
+      <i class="fa fa-linkedin"></i>
+    </a>
+  {% endif %}
+</div>
