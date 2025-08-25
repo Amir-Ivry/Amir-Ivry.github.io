@@ -1,18 +1,19 @@
 ---
-layout: page
-title: "Blog"
-nav: blog
-description: "Occasional notes and updates."
+layout: default
+title: Blog
+permalink: /blog/
 ---
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li class="post-item">
-      <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-  {% if site.posts == empty %}
-    <li class="post-item dim">Add Markdown files in <code>_posts/</code> to publish blog posts.</li>
-  {% endif %}
+# Blog
+
+<ul class="list">
+{% for post in site.posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span class="post-meta"> · {{ post.date | date: "%b %-d, %Y" }}</span>
+  </li>
+{% endfor %}
+{% if site.posts.size == 0 %}
+  <li>(Add posts in `_posts/`.)</li>
+{% endif %}
 </ul>
