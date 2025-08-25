@@ -1,9 +1,6 @@
-# Recent news items (date: YYYY-MM-DD)
-- date: 2025-08-20
-  text: "Preprint released on arXiv."
+- date: 2025-08-25
+  text: "Preprint released on arXiv"
   url: "https://arxiv.org/abs/xxxx.xxxxx"
-- date: 2025-07-30
-  text: "Project page and demos published."
-  url: "https://USERNAME.github.io"
-- date: 2025-06-15
-  text: "Invited talk at AudioML Seminar."
+
+- date: 2025-08-20
+  text: "Project page launched with audio demos"
