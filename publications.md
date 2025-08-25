@@ -1,25 +1,20 @@
 ---
-layout: page
-title: "Publications"
-nav: publications
-description: "Selected and full list, reverse chronological."
+layout: default
+title: Publications
+permalink: /publications/
 ---
 
-<ul class="pubs">
-{% assign pubs = site.data.publications | sort: 'year' | reverse %}
+# Publications
+
+<ul class="list list-pubs">
+{% assign pubs = site.data.publications | sort: "year" | reverse %}
 {% for p in pubs %}
-  <li class="pub">
-    <span class="pub-title"><a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a></span>
-    <span class="pub-authors">{{ p.authors }}</span>
-    <span class="pub-venue">— {{ p.venue }} {{ p.year }}</span>
-    {% if p.extra %}<span class="pub-extra"> · {{ p.extra }}</span>{% endif %}
-    {% if p.links %}
-    <span class="pub-links">
-      {% for k in p.links %}
-        <a href="{{ k.url }}" target="_blank" rel="noopener">{{ k.name }}</a>{% if forloop.last == false %} · {% endif %}
-      {% endfor %}
-    </span>
-    {% endif %}
+  <li>
+    <span class="pub-title">{{ p.title }}</span>
+    {% if p.venue %}<span class="pub-venue"> · {{ p.venue }}{% if p.year %} {{ p.year }}{% endif %}</span>{% endif %}
+    {% if p.link %} — <a href="{{ p.link }}" target="_blank" rel="noopener">paper</a>{% endif %}
+    {% if p.code %} · <a href="{{ p.code }}" target="_blank" rel="noopener">code</a>{% endif %}
+    {% if p.project %} · <a href="{{ p.project }}" target="_blank" rel="noopener">project</a>{% endif %}
   </li>
 {% endfor %}
 </ul>
