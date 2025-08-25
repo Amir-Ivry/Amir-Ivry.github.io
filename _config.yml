@@ -1,26 +1,24 @@
 title: "Amir Ivry"
-tagline: ""
+tagline: ""  # optional; shows under your name if non-empty
 description: "Hi! I’m a postdoctoral researcher working on making speech, music, and audio systems more reliable using human perception as a compass."
-# Replace USERNAME below with your GitHub username
-url: "https://amir-ivry.github.io/"
+url: "https://amir-ivry.github.io"
 baseurl: ""
 author:
   name: "Amir Ivry"
-  email: aivry@ieee.com
-  avatar: /assets/img/Amir Profile Pic.jpg
+  email: "aivry@ieee.org"
+  avatar: "/assets/img/Amir Profile Pic.jpg"
+
 social:
-  twitter: yourhandle
-  github: Amir-Ivry
+  github: "Amir-Ivry"
   scholar: "https://scholar.google.com/citations?user=rQCVwksAAAAJ&hl=en&oi=ao"
   linkedin: "https://www.linkedin.com/in/amirivry/"
-google_analytics: ""   # e.g., G-XXXXXXX (optional)
-permalink: /blog/:year/:month/:day/:title/
+
 markdown: kramdown
-kramdown:
-  input: GFM
+kramdown: { input: GFM }
 theme: null
 plugins: []
-# Navigation labels
+permalink: /blog/:year/:month/:day/:title/
+
 nav:
   - title: Home
     url: /
