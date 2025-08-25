@@ -1,0 +1,17 @@
+phd:
+  - name: "Firstname Lastname"
+    photo: "/assets/img/team/phd_firstname.jpg"
+    field: "Robust speech separation with perceptual guarantees"
+
+  - name: "Firstname Lastname"
+    photo: "/assets/img/team/phd_second.jpg"
+    field: "Multi-speaker diarization with self-supervised audio"
+
+msc:
+  - name: "Firstname Lastname"
+    photo: "/assets/img/team/msc_first.jpg"
+    field: "Metric learning for echo suppression"
+
+  - name: "Firstname Lastname"
+    photo: "/assets/img/team/msc_second.jpg"
+    field: "Diffusion-map embeddings for audio evaluation"
