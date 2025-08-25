@@ -5,31 +5,25 @@ permalink: /
 ---
 
 <section class="hero">
-  <img class="avatar" src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
+  <div class="avatar-wrap">
+    <img class="avatar-img" src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
+  </div>
+
   <div class="hero-text">
     <h1 class="hero-name">{{ site.author.name }}</h1>
     {% if site.tagline and site.tagline != '' %}
       <p class="hero-tagline">{{ site.tagline }}</p>
     {% endif %}
-    <p class="hero-abstract">{{ site.description }}</p>
-<p class="hero-abstract">
-  I study what I call the <strong>broken compass problem</strong> in speech systems—when evaluation is ambiguous and misdirects research, slowing progress instead of accelerating it.
-</p>
 
-<p class="hero-abstract">
-  As a postdoctoral researcher, my work seeks to rebuild that compass: making speech, music, and audio systems more reliable by aligning evaluation with human perception.
-</p>
+    <!-- Visionary + grounding lines -->
+    <p class="hero-abstract">
+      I study what I call the <strong>broken compass problem</strong> in speech systems—when evaluation is ambiguous and misdirects research, slowing progress instead of accelerating it.
+    </p>
+    <p class="hero-abstract">
+      As a postdoctoral researcher, my work seeks to rebuild that compass: making speech, music, and audio systems more reliable by aligning evaluation with human perception.
+    </p>
 
-<div class="abstract-expanded">
-  <p>
-    Over the past decade, I’ve had the privilege of working across both academia and industry. At Microsoft, I most recently served as a Principal Researcher and Head of Data Domain in the Teams organization. Along the way I co-led the NOTSOFAR-1 Challenge and benchmark, won the global Microsoft Hackathon with an accent-softening solution for Teams, and co-authored research on diarization and ASR.
-  </p>
-  <p>
-    Parallel to my industry tenure, I pursued a direct-track PhD in Electrical and Computer Engineering at the Technion under the supervision of Prof. Israel Cohen. Outside of research, I find balance in nature—a space where many of my ideas take shape.
-  </p>
-</div>
-
-    <!-- Social icons just below abstract -->
+    <!-- Small circular social icons (centered row) -->
     <div class="social-icons">
       {% if site.author.email %}
         <a href="mailto:{{ site.author.email }}" class="icon" aria-label="Email" title="Email">
@@ -47,46 +41,4 @@ permalink: /
         </a>
       {% endif %}
       {% if site.social.linkedin %}
-        <a href="{{ site.social.linkedin }}" target="_blank" rel="noopener" class="icon" aria-label="LinkedIn" title="LinkedIn">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.3c0-1.26-.02-2.88-1.76-2.88-1.76 0-2.03 1.37-2.03 2.78V21H10V9Z"/></svg>
-        </a>
-      {% endif %}
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <h2>Selected Publications</h2>
-  <ul class="list list-pubs">
-    {% assign selected = site.data.publications | where: "selected", true %}
-    {% for p in selected %}
-      <li>
-        <span class="pub-title">{{ p.title }}</span>
-        {% if p.venue %}<span class="pub-venue"> · {{ p.venue }}{% if p.year %} {{ p.year }}{% endif %}</span>{% endif %}
-        {% if p.link %} — <a href="{{ p.link }}" target="_blank" rel="noopener">paper</a>{% endif %}
-        {% if p.code %} · <a href="{{ p.code }}" target="_blank" rel="noopener">code</a>{% endif %}
-        {% if p.project %} · <a href="{{ p.project }}" target="_blank" rel="noopener">project</a>{% endif %}
-      </li>
-    {% endfor %}
-    {% if selected.size == 0 %}
-      <li>(Add items with `selected: true` in `_data/publications.yml`.)</li>
-    {% endif %}
-  </ul>
-</section>
-
-<section class="section">
-  <h2>Recent News</h2>
-  <ul class="list list-news">
-    {% for n in site.data.news limit:8 %}
-      <li>
-        <span class="news-date">{{ n.date }}</span>
-        <span class="news-text">
-          {% if n.url %}<a href="{{ n.url }}" target="_blank" rel="noopener">{{ n.text }}</a>{% else %}{{ n.text }}{% endif %}
-        </span>
-      </li>
-    {% endfor %}
-    {% if site.data.news == nil or site.data.news.size == 0 %}
-      <li>(Add items in `_data/news.yml`.)</li>
-    {% endif %}
-  </ul>
-</section>
+        <a href="{{ site.social.linked
