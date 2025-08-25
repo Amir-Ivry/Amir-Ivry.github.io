@@ -81,3 +81,39 @@ a:hover{text-decoration:underline}
 .list li{ padding:.4rem 0 }
 .list li + li{ border-top:1px solid rgba(0,0,0,.06) }
 .list-news .news-date{ font-variant-numeric:tabular-nums; color:#777; margin-right:.5rem }
+
+/* Team page */
+.team-section-title{
+  margin:1.4rem 0 .6rem;
+  font-weight:600;
+  letter-spacing:.2px;
+  color:#2a2a2a;
+}
+
+.team-grid{
+  display:grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap:1rem;
+  margin: .4rem 0 1.6rem;
+}
+@media (max-width:1000px){ .team-grid{ grid-template-columns: repeat(3, 1fr); } }
+@media (max-width:720px){ .team-grid{ grid-template-columns: repeat(2, 1fr); } }
+@media (max-width:480px){ .team-grid{ grid-template-columns: 1fr; } }
+
+.team-card{
+  display:flex;
+  align-items:flex-start;
+  gap:.7rem;
+}
+
+.team-photo{
+  width:64px; height:64px; border-radius:10px; overflow:hidden; flex:0 0 64px;
+  background:#f2eadf;
+}
+.team-photo img{
+  width:100%; height:100%; object-fit:cover; display:block;
+}
+
+.team-info{ display:flex; flex-direction:column; gap:.15rem }
+.team-name{ font-size:1rem; color:#141414 }
+.team-field{ font-size:.95rem; color:#595f6a; line-height:1.4 }
