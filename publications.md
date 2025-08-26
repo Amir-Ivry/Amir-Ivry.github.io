@@ -4,8 +4,6 @@ title: Publications
 permalink: /publications/
 ---
 
-# Publications
-
 {%- assign groups = site.data.publications | group_by: "year" | sort: "name" | reverse -%}
 
 {%- for g in groups -%}
