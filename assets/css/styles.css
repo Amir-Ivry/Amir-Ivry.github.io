@@ -71,12 +71,17 @@ h1{margin:0 0 6px; font-size:1.6rem}
 .pub-authors .me{ text-decoration:underline; text-underline-offset:2px }
 
 /* NEW: venue/year row with icons aligned to the right */
-.pub-meta-row{
-  margin-top:4px;
-  display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;
+.pub-meta-row {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
-.pub-meta-row .left{ color:var(--muted); display:flex; align-items:center; gap:6px }
-.dot{opacity:.6}
+.pub-meta-row .left { color: var(--muted); display:flex; gap:6px; }
+.pub-meta-row .right { display:flex; gap:8px; }
+
 
 /* Icon buttons */
 .links{display:inline-flex; gap:8px}
