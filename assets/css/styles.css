@@ -1,21 +1,77 @@
-/* Make both intro paragraphs pure black */
-.hero-abstract,
-.hero-bio { color: #000; }
-
-/* Stack and center photo + icons as one column */
-.avatar-stack{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.avatar-stack .social-icons{
-  margin-top: .6rem;
-  justify-content: center;
+:root{
+  --bg: #fff7ec;          /* calm cream */
+  --text: #111;
+  --muted:#666;
+  --accent:#0e88cf;
+  --maxw: 760px;          /* tighter column */
 }
 
-/* Underline my name wherever it appears in authors lists */
-.pub-authors .me{
-  text-decoration: underline;
-  text-decoration-thickness: from-font;
-  text-underline-offset: 2px;
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+  color:var(--text);
+  background:var(--bg);
+}
+
+.container{max-width:var(--maxw); margin:0 auto; padding:0 18px}
+
+/* Header */
+.site-header{padding:12px 0}
+.nav{display:flex; gap:14px; justify-content:flex-end}
+.nav a{color:var(--text); text-decoration:none; opacity:.9}
+.nav a.active{opacity:1; font-weight:600}
+
+/* Main + Footer */
+.site-main{padding:28px 0}
+.site-footer{padding:24px 0; color:var(--muted); text-align:center}
+
+/* Hero (ultra-simple) */
+.hero{display:flex; gap:16px; align-items:flex-start}
+.hero .photo{
+  flex:0 0 112px;
+  width:112px; height:140px; border-radius:10px; overflow:hidden;
+  background:#f2eadf;
+}
+.hero .photo img{width:100%; height:100%; object-fit:cover; display:block}
+.hero .text{flex:1}
+h1{margin:0 0 6px; font-size:1.6rem}
+.tag{margin:0 0 8px; color:var(--muted)}
+.lead{margin:6px 0 0; color:#000}
+.bio{margin:10px 0 0; color:#000}
+
+/* Social row (tiny, text-first; add icons later if wanted) */
+.social{margin:10px 0 0; display:flex; flex-wrap:wrap; gap:10px}
+.social a{color:var(--accent); text-decoration:none}
+.social a:hover{text-decoration:underline}
+
+/* Sections */
+.section{margin-top:28px}
+.section h2{margin:0 0 10px; font-size:1.1rem}
+
+/* Publications */
+.pub-year{margin:22px 0 6px; font-weight:700}
+.pubs{list-style:none; padding:0; margin:6px 0 0}
+.pubs li{padding:8px 0}
+.pubs li+li{border-top:1px solid rgba(0,0,0,.07)}
+.pub-title{font-weight:700}
+.pub-meta{color:var(--muted)}
+.links{display:inline-flex; gap:10px; margin-left:8px}
+.links a{color:var(--accent); text-decoration:none; font-weight:500}
+.links a:hover{text-decoration:underline}
+.pub-authors{margin:2px 0 0}
+.pub-venue{color:var(--muted); margin-top:2px}
+.pub-venue .dot{margin:0 6px; opacity:.6}
+
+/* Emphasize your name in authors */
+.pub-authors .me{ text-decoration:underline; text-underline-offset:2px }
+
+/* Mobile */
+@media (max-width:680px){
+  .nav{justify-content:center; flex-wrap:wrap}
+  .hero{flex-direction:column; align-items:center; text-align:center}
+  .hero .photo{width:120px; height:150px}
+  .hero .text{width:100%}
+  .social{justify-content:center}
 }
