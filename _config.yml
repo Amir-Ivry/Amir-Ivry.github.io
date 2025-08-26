@@ -24,9 +24,8 @@ permalink: /blog/:year/:month/:day/:title/
 nav:
   - title: Home
     url: /
-  - title: Team
-    url: /team/
   - title: Publications
     url: /publications/
-  - title: Code
-    url: /code/
+  - title: Team
+    url: /team/
+
