@@ -5,30 +5,13 @@ permalink: /
 ---
 
 <section class="hero">
-  <div class="avatar-wrap">
-    <img class="avatar-img" src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
-  </div>
+  <!-- LEFT: photo + icons stacked -->
+  <div class="avatar-stack">
+    <div class="avatar-wrap">
+      <img class="avatar-img" src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
+    </div>
 
-  <div class="hero-text">
-    <h1 class="hero-name">{{ site.author.name }}</h1>
-    {% if site.tagline and site.tagline != '' %}
-      <p class="hero-tagline">{{ site.tagline }}</p>
-    {% endif %}
-
-<p class="hero-abstract">
-  I’m a postdoctoral researcher tackling what I call the <strong>broken compass problem</strong> in speech systems: when evaluation is ambiguous, misguides progress, and slows innovation instead of accelerating it. 
-  My work seeks to rebuild that compass - making speech, music, and audio systems more reliable by anchoring evaluation in human perception.
-</p>
-
-
-    <!-- Short-bio placeholder -->
-    <p class="hero-bio placeholder">
-      I have spent the past decade as a hands-on scientist in industry, working on speech, language, vision, and time-series challenges.
-      Most recently, I've served as Principal Researcher and the Head of the Data Domain in Microsoft Teams (2021–2025). 
-      In parallel, I pursued a direct-track PhD at the Technion (2018–2023), creating personalized and user-centric speech systems.
-    </p>
-
-    <!-- Social icons -->
+    <!-- Social icons centered under the photo -->
     <div class="social-icons">
       {% if site.author.email %}
         <a href="mailto:{{ site.author.email }}" class="icon" aria-label="Email" title="Email">
@@ -50,17 +33,32 @@ permalink: /
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.3c0-1.26-.02-2.88-1.76-2.88-1.76 0-2.03 1.37-2.03 2.78V21H10V9Z"/></svg>
         </a>
       {% endif %}
-      {% if site.social.cv %}
-        <a href="{{ site.social.cv | relative_url }}" target="_blank" class="icon" aria-label="CV" title="CV">
-          <!-- Stylish document-text icon -->
+      {% if site.cv and site.cv != "" %}
+        <a href="{{ site.cv | relative_url }}" target="_blank" class="icon" aria-label="CV" title="CV">
           <svg viewBox="0 0 24 24" aria-hidden="true">
             <path d="M6 2a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6H6Zm7 1.5L18.5 9H13V3.5ZM8 13h8v1.5H8V13Zm0 3h8v1.5H8V16Zm0-6h5v1.5H8V10Z"/>
           </svg>
         </a>
       {% endif %}
-
-
     </div>
+  </div>
+
+  <!-- RIGHT: text -->
+  <div class="hero-text">
+    <h1 class="hero-name">{{ site.author.name }}</h1>
+    {% if site.tagline and site.tagline != '' %}
+      <p class="hero-tagline">{{ site.tagline }}</p>
+    {% endif %}
+
+    <!-- BOTH intro paragraphs now pure black via CSS -->
+    <p class="hero-abstract">
+      I’m a postdoctoral researcher tackling what I call the <strong>broken compass problem</strong> in speech systems: when evaluation is ambiguous, misguides progress, and slows innovation instead of accelerating it. 
+    </p>
+    <p class="hero-abstract">
+      My work seeks to rebuild that compass—making speech, music, and audio systems more reliable by anchoring evaluation in human perception.
+    </p>
+
+    <p class="hero-bio placeholder">[Short bio goes here — keep it to 1–2 sentences.]</p>
   </div>
 </section>
 
@@ -102,7 +100,15 @@ permalink: /
             {% endif %}
           </span>
         </div>
-        {% if p.authors %}<div class="pub-authors">{{ p.authors }}</div>{% endif %}
+        {% if p.authors %}
+          <div class="pub-authors">
+            {{ p.authors
+              | replace: 'Amir Ivry','<span class="me">Amir Ivry</span>'
+              | replace: 'Ivry, Amir','<span class="me">Ivry, Amir</span>'
+              | replace: 'A. Ivry','<span class="me">A. Ivry</span>'
+              | replace: 'Amir I.','<span class="me">Amir I.</span>' }}
+          </div>
+        {% endif %}
         <div class="pub-venue-year">
           {% if p.venue %}<span>{{ p.venue }}</span>{% endif %}
           {% if p.venue and p.year %}<span class="sep">&middot;</span>{% endif %}
