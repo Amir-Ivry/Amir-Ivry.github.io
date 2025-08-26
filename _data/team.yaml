@@ -1,17 +1,13 @@
 phd:
-  - name: "Firstname Lastname"
+  - name: "Gil Weissman"
     photo: "/assets/img/team/phd_firstname.jpg"
-    field: "Robust speech separation with perceptual guarantees"
-
-  - name: "Firstname Lastname"
-    photo: "/assets/img/team/phd_second.jpg"
-    field: "Multi-speaker diarization with self-supervised audio"
-
+    field: "Automated Tip-and-Cue for Optimized Satellite Tasking and Visual Intelligence"
+    
 msc:
-  - name: "Firstname Lastname"
+  - name: "Yair Amar"
     photo: "/assets/img/team/msc_first.jpg"
-    field: "Metric learning for echo suppression"
+    field: "Probing and Analysis of Transformer-based Architectures for Speech Enhancement"
 
-  - name: "Firstname Lastname"
+  - name: "Omer Holtzman"
     photo: "/assets/img/team/msc_second.jpg"
-    field: "Diffusion-map embeddings for audio evaluation"
+    field: "Multi-instrument Music Improvisation Generation from Real Musical Cues"
