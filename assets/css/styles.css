@@ -141,3 +141,25 @@ h1{margin:0 0 6px; font-size:1.6rem}
   .nav{justify-content:center; flex-wrap:wrap}
   .text{ text-align:center }
 }
+
+/* Repos grid (Code page) */
+.repo-grid,
+.cards { display:grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap:14px }
+@media (max-width:720px){ .repo-grid, .cards { grid-template-columns: 1fr; } }
+
+.card{
+  padding:14px; border:1px solid rgba(0,0,0,.08); border-radius:12px; background:#fffaf1;
+}
+.card-head{ display:flex; justify-content:space-between; align-items:center; gap:10px }
+.card-title{ font-weight:700; text-decoration:none; color:#0e88cf }
+.card-title:hover{ text-decoration:underline }
+.card-desc{ margin:.35rem 0 0; color:#333 }
+.card-meta{ margin-top:.35rem; display:flex; gap:10px; color:#555; font-size:.95rem }
+.card-meta .star{ color:#946200 }
+.card-links{ margin-top:8px; display:flex; gap:8px }
+.card-links a, .repo-grid .card .card-links a{
+  width:28px; height:28px; border-radius:50%; display:inline-flex; align-items:center; justify-content:center;
+  background:#e7f3fb; color:#0b6ea9; text-decoration:none; transition:.12s all ease
+}
+.card-links a:hover{ background:#0b6ea9; color:#fff; transform:translateY(-1px) }
+.card-links svg{ width:16px; height:16px; fill:currentColor }
