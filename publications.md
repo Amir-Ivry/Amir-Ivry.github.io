@@ -10,7 +10,7 @@ permalink: /publications/
 
 {%- for g in groups -%}
   {%- if g.name and g.name != "" -%}
-### {{ g.name }}{: .pub-year}
+<h3 class="pub-year">{{ g.name }}</h3>
 
 <ul class="pubs">
   {%- for p in g.items -%}
