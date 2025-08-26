@@ -114,6 +114,90 @@ a:hover{text-decoration:underline}
   width:100%; height:100%; object-fit:cover; display:block;
 }
 
+/* ===========================
+   MOBILE OVERRIDES
+   Keep this block LAST in the file
+   =========================== */
+
+/* Large tablets and down */
+@media (max-width: 900px) {
+  .container { padding: 0 16px; }                /* more breathing room than 8px edges */
+  .site-main { padding: 1.5rem 0; }
+
+  /* Header nav: wrap & center for cleaner look on small widths */
+  .header-row { justify-content: center; flex-wrap: wrap; row-gap: .25rem; }
+  .site-nav a { margin: 0 .5rem; padding: .25rem 0; } /* larger tap area without looking chunky */
+}
+
+/* Phones and small tablets */
+@media (max-width: 680px) {
+  html { font-size: 16px; } /* stable base size on phones */
+
+  .container { padding: 0 18px; }                 /* even safer margins on tiny screens */
+
+  /* HERO: stack vertically; center content; bigger line-height */
+  .hero {
+    grid-template-columns: 1fr;                   /* stack image then text */
+    gap: 1rem;
+    margin: 0 0 1rem;
+  }
+  .avatar-wrap {
+    max-width: 160px;                             /* tidy portrait size on phones */
+    margin: 0 auto;                               /* center */
+  }
+  .hero-text { align-items: center; text-align: center; }
+  .hero-name { font-size: 1.6rem; line-height: 1.25; }
+  .hero-abstract,
+  .hero-bio { font-size: 1rem; line-height: 1.7; margin-top: .4rem; }
+
+  /* Social icons row (incl. CV): a touch larger for tap targets */
+  .social-icons { margin-top: .9rem; gap: .5rem; }
+  .icon { width: 36px; height: 36px; }
+  .icon svg { width: 18px; height: 18px; }
+
+  /* Section headings a bit tighter */
+  .section { margin-top: 1.4rem; }
+  .section h2 { font-size: 1.1rem; margin-bottom: .5rem; }
+
+  /* Publications: increase vertical rhythm, reduce visual clutter */
+  .pubs { margin: .3rem 0 1rem; }
+  .pub-year { margin: 1.2rem 0 .35rem; font-size: 1.05rem; }
+  .pub { padding: .35rem 0 .6rem; }
+  .pub + .pub { margin-top: .3rem; padding-top: .6rem; border-top: 1px solid rgba(0,0,0,.08); }
+
+  .pub-line { gap: .35rem; }
+  .pub-title { font-weight: 700; }
+  .icon-row-inline { gap: .3rem; }
+  .icon-btn { width: 28px; height: 28px; }       /* thumb-friendly */
+  .icon-btn svg { width: 15px; height: 15px; }
+
+  .pub-authors { font-size: .97rem; margin-top: .12rem; }
+  .pub-venue-year { font-size: .93rem; gap: .2rem; }
+
+  /* Team grid: fewer columns + breathing space */
+  .team-grid { grid-template-columns: repeat(2, 1fr); gap: .9rem; }
+  .team-card { gap: .6rem; }
+  .team-photo { width: 56px; height: 56px; border-radius: 9px; }
+  .team-name { font-size: .98rem; }
+  .team-field { font-size: .93rem; }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+  .container { padding: 0 14px; }                /* safe edges on smallest screens */
+
+  /* Make icons a bit bigger again for fat-finger friendliness */
+  .icon { width: 38px; height: 38px; }
+  .icon svg { width: 19px; height: 19px; }
+
+  .icon-btn { width: 30px; height: 30px; }
+  .icon-btn svg { width: 16px; height: 16px; }
+
+  /* Team: single column */
+  .team-grid { grid-template-columns: 1fr; }
+}
+
+
 .team-info{ display:flex; flex-direction:column; gap:.15rem }
 .team-name{ font-size:1rem; color:#141414 }
 .team-field{ font-size:.95rem; color:#595f6a; line-height:1.4 }
