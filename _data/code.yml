@@ -1,3 +1,10 @@
-- name: MAPS_measures
-  url: https://github.com/Amir-Ivry/MAPS_measures
-  description: PS/PM perceptual metrics with diffusion maps and confidence bounds
+- name: MAPSS-measures
+  repo: https://github.com/Amir-Ivry/MAPSS-measures
+  url: https://github.com/Amir-Ivry/MAPSS-measures         # or a project page if you have one
+  description: "PS/PM perceptual metrics with diffusion maps and confidence bounds."
+  language: "Python"
+  stars: 0              # optional: you can update manually, or omit
+  updated: 2025-08-27   # optional: YYYY-MM-DD
+  paper: ""             # optional
+  demo: ""              # optional
+  project: ""           # optional
