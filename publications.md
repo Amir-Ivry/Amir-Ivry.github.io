@@ -8,7 +8,6 @@ permalink: /publications/
 
 {%- assign pubs = site.data.publications -%}
 {%- assign groups = pubs | group_by: "year" | sort: "name" | reverse -%}
-
 {%- assign other_group = nil -%}
 
 {%- for g in groups -%}
@@ -49,7 +48,15 @@ permalink: /publications/
             {%- endif -%}
           </span>
         </div>
-        {%- if p.authors -%}<div class="pub-authors">{{ p.authors }}</div>{%- endif -%}
+        {%- if p.authors -%}
+          <div class="pub-authors">
+            {{ p.authors
+              | replace: 'Amir Ivry','<span class="me">Amir Ivry</span>'
+              | replace: 'Ivry, Amir','<span class="me">Ivry, Amir</span>'
+              | replace: 'A. Ivry','<span class="me">A. Ivry</span>'
+              | replace: 'Amir I.','<span class="me">Amir I.</span>' }}
+          </div>
+        {%- endif -%}
         <div class="pub-venue-year">
           {%- if p.venue -%}<span>{{ p.venue }}</span>{%- endif -%}
           {%- if p.venue and p.year -%}<span class="sep">&middot;</span>{%- endif -%}
@@ -100,7 +107,15 @@ permalink: /publications/
           {%- endif -%}
         </span>
       </div>
-      {%- if p.authors -%}<div class="pub-authors">{{ p.authors }}</div>{%- endif -%}
+      {%- if p.authors -%}
+        <div class="pub-authors">
+          {{ p.authors
+            | replace: 'Amir Ivry','<span class="me">Amir Ivry</span>'
+            | replace: 'Ivry, Amir','<span class="me">Ivry, Amir</span>'
+            | replace: 'A. Ivry','<span class="me">A. Ivry</span>'
+            | replace: 'Amir I.','<span class="me">Amir I.</span>' }}
+        </div>
+      {%- endif -%}
       <div class="pub-venue-year">
         {%- if p.venue -%}<span>{{ p.venue }}</span>{%- endif -%}
         {%- if p.venue and p.year -%}<span class="sep">&middot;</span>{%- endif -%}
