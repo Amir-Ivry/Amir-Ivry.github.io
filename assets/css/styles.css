@@ -18,10 +18,30 @@ body{
 .container{max-width:var(--maxw); margin:0 auto; padding:0 18px}
 
 /* Header */
-.site-header{padding:12px 0}
-.nav{display:flex; gap:14px; justify-content:flex-end}
-.nav a{color:var(--text); text-decoration:none; opacity:.9}
-.nav a.active{opacity:1; font-weight:600}
+.site-header{ padding:12px 0 }
+.header-row{ display:flex; align-items:center; justify-content:space-between; gap:12px }
+.site-nav{ display:flex; gap:14px; flex-wrap:wrap }
+.site-nav a{ color:var(--text); text-decoration:none; opacity:.9 }
+.site-nav a.active{ opacity:1; font-weight:600 }
+
+/* Right-side social icons in header */
+.header-icons{ display:flex; gap:8px; flex-wrap:wrap; margin-left:auto }
+.icn{
+  width:32px; height:32px; border-radius:50%;
+  display:inline-flex; align-items:center; justify-content:center;
+  background:#e7f3fb; color:#0b6ea9; text-decoration:none;
+  transition:transform .12s ease, background .12s ease, color .12s ease;
+}
+.icn:hover{ background:#0b6ea9; color:#fff; transform:translateY(-1px) }
+.icn svg{ width:17px; height:17px; fill:currentColor }
+
+/* Header on small screens: center nav; keep icons pinned right within container */
+@media (max-width:680px){
+  .header-row{ flex-wrap:wrap }
+  .site-nav{ justify-content:center; flex:1 1 auto; order:1 }
+  .header-icons{ order:2; width:100%; justify-content:center; margin-left:0 }
+}
+
 
 /* Main + Footer */
 .site-main{padding:28px 0}
