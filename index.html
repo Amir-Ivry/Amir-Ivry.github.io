@@ -2,14 +2,14 @@
   <h2>News</h2>
 
   <ul class="news" id="news-list" data-limit="10">
-    {% assign items = site.data.news | default: empty %}
+    {% assign items = site.data.news | sort: "date" | reverse %}
     {% for n in items %}
       {% assign idx = forloop.index %}
       <li class="news-item{% if idx > 10 %} is-hidden{% endif %}">
         <span class="date">{{ n.date }}</span>
         <span class="news-text">
           {% if n.link_text and n.url %}
-            {% if n.prefix %}{{ n.prefix }}{% endif %}
+            {% if n.prefix %}{{ n.prefix }} {% endif %}
             <a href="{{ n.url }}" target="_blank" rel="noopener">{{ n.link_text }}</a>
             {% if n.suffix %} {{ n.suffix }}{% endif %}
           {% else %}
@@ -30,9 +30,7 @@
     var btn = document.getElementById('news-toggle');
     if (!btn) return;
     btn.addEventListener('click', function () {
-      var list = document.getElementById('news-list');
-      if (!list) return;
-      var hidden = list.querySelectorAll('.news-item.is-hidden');
+      var hidden = document.querySelectorAll('.news-item.is-hidden');
       hidden.forEach(function (el) { el.classList.remove('is-hidden'); });
       btn.style.display = 'none'; // one-way expand
     });
