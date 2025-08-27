@@ -120,23 +120,47 @@ h1{margin:0 0 6px; font-size:1.6rem}
 .news li+li{ border-top:1px solid rgba(0,0,0,.07) }
 .news .date{ color:#777; margin-right:.5rem; font-variant-numeric: tabular-nums }
 
-/* Team grid (unchanged, row layout) */
-.team-head{ margin:18px 0 8px; font-weight:700 }
-.team-grid{
-  display:grid; grid-template-columns: repeat(3, minmax(0,1fr));
-  gap:14px; align-items:start; margin:8px 0 22px;
+/* Team page */
+.team-head{
+  margin: 20px 0 10px;
+  font-weight: 700;
+  letter-spacing: .2px;
+  color: #2a2a2a;
 }
-@media (max-width:900px){ .team-grid{ grid-template-columns: repeat(2, 1fr); } }
-@media (max-width:520px){ .team-grid{ grid-template-columns: 1fr; } }
 
+/* Wider gutters + typically 2 per row on desktop */
+.team-grid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)); /* 2 across */
+  gap: 18px 22px;                                    /* wider margins between cards */
+  align-items: start;
+  margin: 10px 0 24px;
+}
+
+/* Collapse to single column on smaller screens */
+@media (max-width: 600px){
+  .team-grid{ grid-template-columns: 1fr; gap: 14px; }
+}
+
+/* Member card: image left, name then topic stacked */
 .member{
-  display:flex; align-items:flex-start; gap:10px;
+  display: grid;
+  grid-template-columns: 72px 1fr;  /* photo width + text */
+  gap: 12px;
+  align-items: center;
 }
+
 .member img{
-  width:56px; height:56px; border-radius:10px; object-fit:cover; background:#f2eadf; flex:0 0 56px;
+  width: 72px; height: 72px;
+  border-radius: 10px;
+  object-fit: cover;
+  background: #f2eadf;
 }
-.m-name{ font-size:1rem }
-.m-field{ font-size:.95rem; color:#595f6a }
+
+.m-info{ display: flex; flex-direction: column; gap: 4px; }
+.m-name{ font-size: 1rem; color: #141414; line-height: 1.2; }
+.m-field{ font-size: .95rem; color: #595f6a; line-height: 1.35; }
+
 
 /* Code cards (as before) */
 .cards{ display:grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap:14px }
