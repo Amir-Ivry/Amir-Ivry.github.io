@@ -142,11 +142,11 @@
   authors: "Shlomo Kashani, Amir Ivry"
   venue: "arXiv preprint arXiv:2201.00650"
   year: 2021
-  link: "/assets/papers/vad_ivry.pdf"
-  code: ""
+  link: "https://arxiv.org/pdf/2201.00650"
+  code: "https://github.com/BoltzmannEntropy/interviews.ai?tab=readme-ov-file"
   project: ""
   video: ""
-  selected: false
+  selected: true
 
 - title: "Off-the-shelf deep integration for residual-echo suppression"
   authors: "Amir Ivry, Israel Cohen, Baruch Berdugo"
