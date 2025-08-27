@@ -207,3 +207,21 @@ h1{margin:0 0 6px; font-size:1.6rem}
 }
 .card-links a:hover{ background:#0b6ea9; color:#fff; transform:translateY(-1px) }
 .card-links svg{ width:16px; height:16px; fill:currentColor }
+
+/* News list truncation */
+.is-hidden { display: none; }
+
+.news-toggle {
+  margin-top: 10px;
+  border: 1px solid rgba(0,0,0,.12);
+  background: #e7f3fb;
+  color: #0b6ea9;
+  padding: .45rem .75rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font: inherit;
+}
+.news-toggle:hover {
+  background: #0b6ea9;
+  color: #fff;
+}
