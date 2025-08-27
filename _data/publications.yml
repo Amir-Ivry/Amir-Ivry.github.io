@@ -28,6 +28,16 @@
   video: ""
   selected: true
 
+- title: "Deep learning interviews: hundreds of fully solved job interview questions from a wide range of key topics in AI"
+  authors: "Shlomo Kashani, Amir Ivry"
+  venue: "arXiv preprint arXiv:2201.00650"
+  year: 2021
+  link: "https://arxiv.org/pdf/2201.00650"
+  code: "https://github.com/BoltzmannEntropy/interviews.ai?tab=readme-ov-file"
+  project: ""
+  video: ""
+  selected: true
+
 - title: "Voice activity detection for transient noisy environment based on diffusion nets"
   authors: "Amir Ivry, Baruch Berdugo, Israel Cohen"
   venue: "IEEE Journal of Selected Topics in Signal Processing"
@@ -137,16 +147,6 @@
   project: ""
   video: ""
   selected: false
-
-- title: "Deep learning interviews: hundreds of fully solved job interview questions from a wide range of key topics in AI"
-  authors: "Shlomo Kashani, Amir Ivry"
-  venue: "arXiv preprint arXiv:2201.00650"
-  year: 2021
-  link: "https://arxiv.org/pdf/2201.00650"
-  code: "https://github.com/BoltzmannEntropy/interviews.ai?tab=readme-ov-file"
-  project: ""
-  video: ""
-  selected: true
 
 - title: "Off-the-shelf deep integration for residual-echo suppression"
   authors: "Amir Ivry, Israel Cohen, Baruch Berdugo"
