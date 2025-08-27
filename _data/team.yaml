@@ -1,13 +1,13 @@
 phd:
   - name: "Gil Weissman"
     photo: "/assets/img/team/Gil_Weissman.jpg"
-    field: "Automated Tip-and-Cue for Optimized Satellite Tasking and Visual Intelligence"
+    field: "Automated Tip-and-Cue for Optimized Satellite Tasking and Visual Intelligence <br> (Joint supervision with Prof. Israel Cohen)"
     
 msc:
   - name: "Yair Amar"
     photo: "/assets/img/team/Yair_Amar.jpeg"
-    field: "Probing and Analysis of Transformer-based Architectures for Speech Enhancement"
+    field: "Probing and Analysis of Transformer-based Architectures for Speech Enhancement <br> (Joint supervision with Prof. Israel Cohen)"
 
   - name: "Omer Holtzman"
     photo: "/assets/img/team/msc_second.jpg"
-    field: "Multi-instrument Music Improvisation Generation from Real Musical Cues"
+    field: "Multi-instrument Music Improvisation Generation from Real Musical Cues <br> (Joint supervision with Prof. Israel Cohen)"
