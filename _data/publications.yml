@@ -12,7 +12,7 @@
   authors: "Alon Vinnikov, Amir Ivry, Aviv Hurvitz, Igor Abramovski, Sharon Koubi, Ilya Gurvich, others"
   venue: "interspeech"
   year: 2024
-  link: "/assets/papers/notsofar_vinnikov.pdf"
+  link: "https://www.isca-archive.org/interspeech_2024/vinnikov24_interspeech.pdf"
   code: "https://github.com/microsoft/NOTSOFAR1-Challenge/tree/main"
   project: "https://www.chimechallenge.org/challenges/chime8/task2/index"
   video: ""
