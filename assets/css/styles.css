@@ -128,38 +128,38 @@ h1{margin:0 0 6px; font-size:1.6rem}
   color: #2a2a2a;
 }
 
-/* Wider gutters + typically 2 per row on desktop */
+/* 2 per row on desktop, with larger cards */
 .team-grid{
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr)); /* 2 across */
-  gap: 18px 22px;                                    /* wider margins between cards */
+  gap: 24px 28px;                                    /* wider margins */
   align-items: start;
   margin: 10px 0 24px;
 }
 
 /* Collapse to single column on smaller screens */
 @media (max-width: 600px){
-  .team-grid{ grid-template-columns: 1fr; gap: 14px; }
+  .team-grid{ grid-template-columns: 1fr; gap: 18px; }
 }
 
-/* Member card: image left, name then topic stacked */
+/* Member card: larger photo left, info right */
 .member{
   display: grid;
-  grid-template-columns: 72px 1fr;  /* photo width + text */
-  gap: 12px;
+  grid-template-columns: 144px 1fr;  /* doubled from 72px */
+  gap: 16px;
   align-items: center;
 }
 
 .member img{
-  width: 72px; height: 72px;
-  border-radius: 10px;
+  width: 144px; height: 144px;       /* doubled from 72px */
+  border-radius: 12px;
   object-fit: cover;
   background: #f2eadf;
 }
 
-.m-info{ display: flex; flex-direction: column; gap: 4px; }
-.m-name{ font-size: 1rem; color: #141414; line-height: 1.2; }
-.m-field{ font-size: .95rem; color: #595f6a; line-height: 1.35; }
+.m-info{ display: flex; flex-direction: column; gap: 6px; }
+.m-name{ font-size: 1.1rem; color: #141414; line-height: 1.2; }
+.m-field{ font-size: 1rem; color: #595f6a; line-height: 1.35; }
 
 
 /* Code cards (as before) */
