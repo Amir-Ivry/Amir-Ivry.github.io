@@ -15,8 +15,10 @@ permalink: /team/
   {% for s in phd %}
   <div class="member">
     <img src="{{ s.photo | relative_url }}" alt="{{ s.name }}">
-    <div class="m-name"><strong>{{ s.name }}</strong></div>
-    <div class="m-field">{{ s.field }}</div>
+    <div class="m-info">
+      <div class="m-name"><strong>{{ s.name }}</strong></div>
+      <div class="m-field">{{ s.field }}</div>
+    </div>
   </div>
   {% endfor %}
 </div>
@@ -28,8 +30,10 @@ permalink: /team/
   {% for s in msc %}
   <div class="member">
     <img src="{{ s.photo | relative_url }}" alt="{{ s.name }}">
-    <div class="m-name"><strong>{{ s.name }}</strong></div>
-    <div class="m-field">{{ s.field }}</div>
+    <div class="m-info">
+      <div class="m-name"><strong>{{ s.name }}</strong></div>
+      <div class="m-field">{{ s.field }}</div>
+    </div>
   </div>
   {% endfor %}
 </div>
