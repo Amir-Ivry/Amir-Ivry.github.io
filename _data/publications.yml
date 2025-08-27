@@ -42,7 +42,7 @@
   authors: "Hadas Benisty, Daniel Furman, Talor Abramovich, Amir Ivry, Hillel Pratt"
   venue: "IEEE International Conference on the Science of Electrical Engineering (ICSEE)"
   year: 2016
-  link: ""
+  link: "/assets/papers/enhancement_benisty.pdf"
   code: ""
   project: ""
   video: ""
@@ -52,7 +52,7 @@
   authors: "Roger Alimi, Amir Ivry, Elad Fisher, Eyal Weiss"
   venue: "IEEE Magnetics Letters"
   year: 2019
-  link: ""
+  link: "/assets/papers/machinelearning_Alimi.pdf"
   code: ""
   project: ""
   video: ""
@@ -62,7 +62,7 @@
   authors: "Eyal Weiss, Roger Alimi, Amir Ivry, Elad Fisher"
   venue: "IEEE Sensors Journal"
   year: 2018
-  link: ""
+  link: "/assets/papers/Investigation-Weiss.pdf"
   code: ""
   project: ""
   video: ""
@@ -72,7 +72,7 @@
   authors: "Roger Alimi, Elad Fisher, Amir Ivry, Alon Shavit, Eyal Weiss"
   venue: "IEEE Transactions on Magnetics"
   year: 2019
-  link: ""
+  link: "/assets/papers/lowpower_alimi.pdf"
   code: ""
   project: ""
   video: ""
@@ -82,7 +82,7 @@
   authors: "Amir Ivry, Israel Cohen, Baruch Berdugo"
   venue: "ICASSP"
   year: 2020
-  link: ""
+  link: "/assets/papers/evaluationVAD_ivry.pdf"
   code: ""
   project: ""
   video: ""
@@ -92,7 +92,7 @@
   authors: "Elad Fisher, Amir Ivry, Roger Alimi, Eyal Weiss"
   venue: "AIP Advances"
   year: 2021
-  link: ""
+  link: "/assets/papers/vad_ivry.pdf"
   code: ""
   project: ""
   video: ""
@@ -102,7 +102,7 @@
   authors: "Amir Ivry, Israel Cohen, Baruch Berdugo"
   venue: "ICASSP"
   year: 2021
-  link: ""
+  link: "/assets/papers/deepresidual_ivry.pdf"
   code: ""
   project: ""
   video: ""
@@ -112,7 +112,7 @@
   authors: "Amir Ivry, Elad Fisher, Roger Alimi, Idan Mosseri, Kanna Nahir"
   venue: "IEEE Transactions on Magnetics"
   year: 2021
-  link: ""
+  link: "/assets/papers/multiclass_ivry.pdf"
   code: ""
   project: ""
   video: ""
@@ -122,17 +122,7 @@
   authors: "Amir Ivry, Israel Cohen, Baruch Berdugo"
   venue: "arXiv preprint arXiv:2106.13754"
   year: 2021
-  link: "https://arxiv.org/abs/2106.13754"
-  code: ""
-  project: ""
-  video: ""
-  selected: false
-
-- title: "Low power in-situ AI Calibration of a 3 Axial Magnetic Sensor"
-  authors: "Roger Alimi, Elad Fisher, Amir Ivry, Alon Shavit, Eyal Weiss"
-  venue: "arXiv preprint arXiv:2106.14151"
-  year: 2021
-  link: "https://arxiv.org/abs/2106.14151"
+  link: "/assets/papers/nonlinear_ivry.pdf"
   code: ""
   project: ""
   video: ""
@@ -142,7 +132,7 @@
   authors: "Amir Ivry, Israel Cohen, Baruch Berdugo"
   venue: "WASPAA"
   year: 2021
-  link: ""
+  link: "/assets/papers/objectivemono_ivry.pdf"
   code: ""
   project: ""
   video: ""
@@ -152,7 +142,7 @@
   authors: "Shlomo Kashani, Amir Ivry"
   venue: "arXiv preprint arXiv:2201.00650"
   year: 2021
-  link: "https://arxiv.org/abs/2201.00650"
+  link: "/assets/papers/vad_ivry.pdf"
   code: ""
   project: ""
   video: ""
@@ -162,7 +152,7 @@
   authors: "Amir Ivry, Israel Cohen, Baruch Berdugo"
   venue: "ICASSP"
   year: 2022
-  link: ""
+  link: "/assets/papers/offtheshelf_ivry.pdf"
   code: ""
   project: ""
   video: ""
@@ -172,7 +162,7 @@
   authors: "Amir Ivry, Israel Cohen, Baruch Berdugo"
   venue: "ICASSP"
   year: 2022
-  link: ""
+  link: "/assets/papers/deepadaptationmono_ivry.pdf"
   code: ""
   project: ""
   video: ""
@@ -182,7 +172,7 @@
   authors: "Amir Ivry, Israel Cohen, Baruch Berdugo"
   venue: "INTERSPEECH"
   year: 2022
-  link: ""
+  link: "/assets/papers/objective_ivry.pdf"
   code: ""
   project: ""
   video: ""
@@ -192,7 +182,7 @@
   authors: "Amir Ivry, Israel Cohen, Baruch Berdugo"
   venue: "WASPAA"
   year: 2023
-  link: ""
+  link: "/assets/papers/deepadaptation_ivry.pdf"
   code: ""
   project: ""
   video: ""
@@ -202,7 +192,7 @@
   authors: "Amir Ivry, Israel Cohen"
   venue: "IWAENC"
   year: 2024
-  link: ""
+  link: "/assets/papers/eures_ivry.pdf"
   code: ""
   project: ""
   video: ""
@@ -212,7 +202,7 @@
   authors: "Igor Abramovski, Alon Vinnikov, Shalev Shaer, Naoyuki Kanda, Xiaofei Wang, Amir Ivry, Eyal Krupka"
   venue: "Computer Speech & Language"
   year: 2025
-  link: ""
+  link: "/assets/papers/summary_abram.pdf"
   code: ""
   project: ""
   video: ""
@@ -222,7 +212,7 @@
   authors: "Amir Ivry, Israel Cohen"
   venue: "ICASSP"
   year: 2025
-  link: ""
+  link: "/assets/papers/eures2_ivry.pdf"
   code: ""
   project: ""
   video: ""
