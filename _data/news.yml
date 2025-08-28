@@ -16,4 +16,22 @@
   url: "/assets/papers/eures_ivry.pdf"
   suffix: "\"E-URES: Efficient user-centric residual-echo suppression framework with a data-driven approach to reducing computational costs\" has been accepted to IWAENC!"          # optional
   
+- date: 2024-03-06
+  prefix: "Our"
+  link_text: "paper"
+  url: "/assets/papers/usercentric_ivry.pdf"
+  suffix: "\"A user-centric approach for deep residual-echo suppression in double-talk\" has been accepted to IEEE/ACM Transactions on Audio, Speech, and Language Processing!"          # optional
+  
+- date: 2024-01-16
+  prefix: "Our"
+  link_text: "paper"
+  url: "https://www.isca-archive.org/interspeech_2024/vinnikov24_interspeech.pdf"
+  suffix: "\"NOTSOFAR-1 challenge: New datasets, baseline, and tasks for distant meeting transcription\" has been accepted to Interspeech!"          # optional
 
+- date: 2023-10-22
+  prefix: "Our"
+  link_text: "paper"
+  url: "/assets/papers/deepadaptationmono_ivry.pdf"
+  suffix: "\"Deep adaptation control for stereophonic acoustic echo cancellation\" has been accepted to WASPAA!"          # optional
+
+    
