@@ -1,21 +1,6 @@
-# Example items (newest first)
-- date: 2025-09-01
-  prefix: "Submitted paper to"
-  link_text: "ICASSP"
-  url: "https://icassp2026.org"
-  suffix: ""          # optional
+- date: 2025-08-01
+  prefix: "Our paper"
+  link_text: "paper"
+  url: "/assets/papers/summary_abram.pdf"
+  suffix: "`Summary of the NOTSOFAR-1 challenge: Highlights and learnings' has been accepted to Computer Speech & Language Journal!"          # optional
 
-- date: 2025-08-24
-  text: "Launched project page with audio demos"   # no link for this one
-
-- date: 2025-08-20
-  prefix: "Preprint uploaded to"
-  link_text: "arXiv"
-  url: "https://arxiv.org/abs/2408.12345"
-  suffix: ""
-
-- date: 2025-08-15
-  prefix: "Invited talk accepted — details"
-  link_text: "here"
-  url: "https://example.com/talk"
-  suffix: ""         # you can also write: "at ABC Symposium"
