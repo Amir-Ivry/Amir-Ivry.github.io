@@ -1,6 +1,19 @@
-- date: 2025-08-01
+- date: 2025-01-08
   prefix: "Our"
   link_text: "paper"
   url: "/assets/papers/summary_abram.pdf"
   suffix: "\"Summary of the NOTSOFAR-1 challenge: Highlights and learnings\" has been accepted to Computer Speech & Language Journal!"          # optional
+  
+- date: 2025-04-06
+  prefix: "Our"
+  link_text: "paper"
+  url: "/assets/papers/eures2_ivry.pdf"
+  suffix: "\"E-URES 2.0: Efficient User-Centric Residual-Echo Suppression with a Lightweight Neural Network\" has been accepted to ICASSP!"          # optional
+
+- date: 2024-09-09
+  prefix: "Our"
+  link_text: "paper"
+  url: "/assets/papers/eures_ivry.pdf"
+  suffix: "\"E-URES: Efficient user-centric residual-echo suppression framework with a data-driven approach to reducing computational costs\" has been accepted to IWAENC!"          # optional
+  
 
