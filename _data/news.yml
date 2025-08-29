@@ -1,112 +1,124 @@
 # 🏅 Awards & Recognition
 
-- date: 2025-01-15
+- date: 2020-06-15
   prefix: "🏅"
   link_text: ""
   url: ""
-  suffix: "Received the Jacobs Award twice, in 2019 and 2020, for excellence in research!"
+  suffix: "I received the Jacobs Award for excellence in research for the second consecutive year!"
+
+- date: 2019-06-15
+  prefix: "🏅"
+  link_text: ""
+  url: ""
+  suffix: "I received the Jacobs Award for excellence in research!"
 
 - date: 2021-11-12
   prefix: "🏅"
   link_text: ""
   url: ""
-  suffix: "Received the Outstanding Research in Data Science Award from the Israel Council for Higher Education – 2021!"
+  suffix: "I received the Outstanding Research in Data Science Award from the Israel Council for Higher Education!"
 
 - date: 2021-09-01
   prefix: "🏅"
   link_text: ""
   url: ""
-  suffix: "Selected to present at the Interspeech Doctoral Consortium for Excellent PhD Proposals – 2021!"
+  suffix: "I was selected to present at the Interspeech Doctoral Consortium for excellent PhD proposals!"
 
 - date: 2021-08-15
   prefix: "🏅"
   link_text: ""
   url: ""
-  suffix: "Awarded the International Speech Communication Association (ISCA) Grant – 2021!"
+  suffix: "I was awarded the International Speech Communication Association (ISCA) Grant!"
 
 - date: 2024-07-01
   prefix: "🏅"
   link_text: ""
   url: ""
-  suffix: "Winner of Microsoft’s Global Hackathon – 2024!"
+  suffix: "We won Microsoft’s Global Hackathon!"
 
 - date: 2024-06-20
   prefix: "🏅"
   link_text: ""
   url: ""
-  suffix: "Elevated to IEEE Senior Member – 2024!"
+  suffix: "I was elevated to IEEE Senior Member status!"
 
 - date: 2022-02-02
   prefix: "🏅"
   link_text: ""
   url: ""
-  suffix: "Named to the Forbes 30 Under 30 list in Science & Technology – 2022!"
+  suffix: "I was named to the Forbes 30 Under 30 list in Science & Technology!"
 
 - date: 2024-03-10
   prefix: "🏅"
   link_text: ""
   url: ""
-  suffix: "Appointed as AI Chapter Chairman in Israel – 2024!"
+  suffix: "I was appointed as AI Chapter Chairman in Israel!"
 
 - date: 2024-02-05
-  prefix: "🏅"
-  link_text: ""
+  prefix: "🏅 We officially released the"
+  link_text: "NOTSOFAR-1 Challenge!"
   url: "https://github.com/microsoft/NOTSOFAR1-Challenge/tree/main"
-  suffix: "We’ve officially released NOTSOFAR-1 – 2024!"
+  suffix: ""
 
 # 🎓 Academic Milestones
+
+- date: 2020-01-01
+  prefix: "🎓"
+  link_text: ""
+  url: ""
+  suffix: "I will re-serve as a Teaching Assistent in the Graduate Course \"Array Signal Processing and Analysis\", led by Prof. Israel Cohen!"
 
 - date: 2019-01-01
   prefix: "🎓"
   link_text: ""
   url: ""
-  suffix: "Array Signal Processing and Analysis, Teaching Assistant, Graduate level (2019–2020)."
+  suffix: "I will serve as a Teaching Assistent in the Graduate Course \"Array Signal Processing and Analysis\", led by Prof. Israel Cohen!"
 
 - date: 2023-12-14
   prefix: "🎓"
   link_text: ""
   url: ""
-  suffix: "Successfully received my PhD on December 14, 2023!"
+  suffix: "I officialy have a PhD in Electrical and Computer Engineering from the Technion!"
 
 # 💼 Appointments & Jobs
 
-- date: 2021-06-01
+- date: 2021-09-19
   prefix: "💼"
   link_text: ""
   url: ""
-  suffix: "Joined Microsoft as an Applied Research Intern – 2021!"
+  suffix: "I joined Microsoft as an Applied Research Intern!"
 
-- date: 2022-07-15
+- date: 2022-06-15
   prefix: "💼"
   link_text: ""
   url: ""
-  suffix: "Advanced to Principal Researcher at Microsoft – 2022!"
+  suffix: "I have been promoted to a Principal Level and will serve as a Research Scientist in Microsoft!"
 
-- date: 2024-01-01
+- date: 2024-10-01
   prefix: "💼"
   link_text: ""
   url: ""
-  suffix: "Appointed Visiting Researcher in Electrical and Computer Engineering, Technion – 2024–now."
+  suffix: "I have been appointed as a Visiting Researcher in the Electrical and Computer Engineering Faculty in the Technion"
 
 # 👋 New Team Members
 
-- date: 2024-05-05
+- date: 2024-10-01
   prefix: "👋"
   link_text: ""
   url: ""
-  suffix: "Welcome Yair Amar to the team – 2024!"
+  suffix: "Welcome Yair Amar to the team!"
 
-- date: 2025-02-12
+- date: 2025-02-01
   prefix: "👋"
   link_text: ""
   url: ""
-  suffix: "Welcome Gil Weissman to the team – 2025!"
+  suffix: "Welcome Gil Weissman to the team!"
 
-- date: 2025-03-20
+- date: 2025-07-01
   prefix: "👋"
   link_text: ""
   url: ""
-  suffix: "Welcome Omer Holtzman to the team – 2025!"
+  suffix: "Welcome Omer Holtzman to the team!"
 
 # 🎤 Lectures (parsed from CV)
 
