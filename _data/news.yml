@@ -75,10 +75,10 @@
   suffix: "I will serve as a Teaching Assistent in the Graduate Course \"Array Signal Processing and Analysis\", led by Prof. Israel Cohen!"
 
 - date: 2023-12-14
-  prefix: "🎓"
-  link_text: ""
-  url: ""
-  suffix: "I officialy have a PhD in Electrical and Computer Engineering from the Technion!"
+  prefix: "🎓 I officialy have a"
+  link_text: "PhD"
+  url: "/assets/papers/PhD_thesis_Ivry.pdf"
+  suffix: "in Electrical and Computer Engineering from the Technion!"
 
 # 💼 Appointments & Jobs
 
