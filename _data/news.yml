@@ -108,130 +108,175 @@
   url: ""
   suffix: "Welcome Omer Holtzman to the team – 2025!"
 
+# 🎤 Lectures (parsed from CV)
+
+- date: 2020-09-15
+  prefix: "🎤"
+  link_text: ""
+  url: ""
+  suffix: "I gave lecture on \"Real-Time Residual Echo Suppression with Deep Learning\" in the 4th Israeli Speech Recognition Conference, Israel!"
+
+- date: 2021-06-01
+  prefix: "🎤 I gave"
+  link_text: "lecture"
+  url: "https://www.youtube.com/watch?v=VxmGddnEkQc&t=1135s"
+  suffix: "on \"Voice Activity Detection for Transient Noisy Environment Based on Diffusion Nets\" in MIT CSAIL!"
+
+- date: 2021-05-15
+  prefix: "🎤"
+  link_text: ""
+  url: ""
+  suffix: "I gave lecture on \"Real-Time Residual Echo Suppression with Deep Learning\" in the 1st Technion-Hanyang research workshop, Israel!"
+
+- date: 2021-05-01
+  prefix: "🎤"
+  link_text: ""
+  url: ""
+  suffix: "I gave lecture on \"Audio Intelligence\" in Alibaba Deep Learning Meetup, Israel!"
+
+- date: 2020-06-01
+  prefix: "🎤"
+  link_text: ""
+  url: ""
+  suffix: "I gave lecture on \"Audio Intelligence\" in the AI & Data Israeli Community Conference, Israel!"
+
+- date: 2019-05-01
+  prefix: "🎤"
+  link_text: ""
+  url: ""
+  suffix: "I gave lecture on \"Fraud Detection with Deep Learning\" in Google for Start-ups, Israel!"
+
+- date: 2019-06-01
+  prefix: "🎤"
+  link_text: ""
+  url: ""
+  suffix: "I gave lecture on \"Fraud Detection with Deep Learning\" in the Annual Conference for Open-Source Code in the Defense Sector, Israel!"
+
+
 # 📄 Publications
 
 - date: 2025-04-06
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/eures2_ivry.pdf"
   suffix: "\"E-URES 2.0: Efficient User-Centric Residual-Echo Suppression with a Lightweight Neural Network\" has been accepted to ICASSP!"
 
 - date: 2025-01-08
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/summary_abram.pdf"
   suffix: "\"Summary of the NOTSOFAR-1 challenge: Highlights and learnings\" has been accepted to Computer Speech & Language Journal!"
 
 - date: 2024-09-09
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/eures_ivry.pdf"
   suffix: "\"E-URES: Efficient user-centric residual-echo suppression framework with a data-driven approach to reducing computational costs\" has been accepted to IWAENC!"
 
 - date: 2024-03-06
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/usercentric_ivry.pdf"
   suffix: "\"A user-centric approach for deep residual-echo suppression in double-talk\" has been accepted to IEEE/ACM Transactions on Audio, Speech, and Language Processing!"
 
 - date: 2024-01-16
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "https://www.isca-archive.org/interspeech_2024/vinnikov24_interspeech.pdf"
   suffix: "\"NOTSOFAR-1 challenge: New datasets, baseline, and tasks for distant meeting transcription\" has been accepted to Interspeech!"
 
 - date: 2023-10-22
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/deepadaptationmono_ivry.pdf"
   suffix: "\"Deep adaptation control for stereophonic acoustic echo cancellation\" has been accepted to WASPAA!"
 
 - date: 2022-09-18
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/objective_ivry.pdf"
   suffix: "\"Objective Metrics to Evaluate Residual-Echo Suppression During Double-Talk in the Stereophonic Case\" has been accepted to INTERSPEECH!"
 
 - date: 2022-05-23
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/deepadaptationmono_ivry.pdf"
   suffix: "\"Deep adaptation control for acoustic echo cancellation\" has been accepted to ICASSP!"
 
 - date: 2022-05-23
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/offtheshelf_ivry.pdf"
   suffix: "\"Off-the-shelf deep integration for residual-echo suppression\" has been accepted to ICASSP!"
 
 - date: 2021-12-30
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "book"
   url: "https://arxiv.org/pdf/2201.00650"
   suffix: "\"Deep learning interviews: hundreds of fully solved job interview questions from a wide range of key topics in AI\" is now available on arXiv!"
 
 - date: 2021-10-17
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/objectivemono_ivry.pdf"
   suffix: "\"Objective metrics to evaluate residual-echo suppression during double-talk\" has been accepted to WASPAA!"
 
 - date: 2021-08-30
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/nonlinear_ivry.pdf"
   suffix: "\"Nonlinear acoustic echo cancellation with deep learning\" has been accepted to Interspeech!"
 
 - date: 2021-06-06
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/deepresidual_ivry.pdf"
   suffix: "\"Deep residual echo suppression with a tunable tradeoff between signal distortion and echo suppression\" has been accepted to ICASSP!"
 
 - date: 2021-05-31
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/multiclass_ivry.pdf"
   suffix: "\"Multiclass permanent magnets superstructure for indoor localization using artificial intelligence\" has been published in IEEE Transactions on Magnetics!"
 
 - date: 2021-01-01
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/smartphone_ivry.pdf"
   suffix: "\"Smartphone based indoor localization using permanent magnets and artificial intelligence for pattern recognition\" has been published in AIP Advances!"
 
 - date: 2020-05-04
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/evaluationVAD_ivry.pdf"
   suffix: "\"Evaluation of deep-learning-based voice activity detectors and room impulse response models in reverberant environments\" has been accepted to ICASSP!"
 
 - date: 2019-07-07
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/lowpower_alimi.pdf"
   suffix: "\"Low power in situ AI calibration of a three-axial magnetic sensor\" has been published in IEEE Transactions on Magnetics!"
 
 - date: 2019-08-19
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/machinelearning_Alimi.pdf"
   suffix: "\"Machine-Learning Detection Algorithms for Large Barkhausen Jumps in Cluttered Environment\" has been published in IEEE Magnetics Letters!"
 
 - date: 2019-04-04
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/vad_ivry.pdf"
   suffix: "\"Voice activity detection for transient noisy environment based on diffusion nets\" has been published in IEEE Journal of Selected Topics in Signal Processing!"
 
 - date: 2018-12-09
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/Investigation-Weiss.pdf"
   suffix: "\"Investigation and modeling of large Barkhausen jumps dynamics in low-power fluxgate magnetometers\" has been published in IEEE Sensors Journal!"
 
 - date: 2016-11-16
-  prefix: "Our 📄"
+  prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/enhancement_benisty.pdf"
   suffix: "\"Enhancement of BCI classifiers through domain adaptation\" has been accepted to ICSEE!"
