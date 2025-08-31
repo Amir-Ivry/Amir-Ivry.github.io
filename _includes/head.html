@@ -5,4 +5,38 @@
   <meta name="description" content="{{ site.description | escape }}">
   <link rel="icon" href="{{ '/assets/img/favicon.png' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+
+  <!-- Plausible (lightweight analytics) -->
+  <!-- Replace yourdomain.com with your real domain -->
+  <script defer data-domain="yourdomain.com" src="https://plausible.io/js/script.js"></script>
+
+  <!-- Virtual pageview helpers for per-item analytics without new pages -->
+  <script>
+    function trackView(section, slug) {
+      try {
+        if (!window.plausible || !section || !slug) return;
+        const virtualPath = '/' + section + '/' + slug;
+        plausible('pageview', { u: window.location.origin + virtualPath });
+      } catch (e) {}
+    }
+    function trackAnchorIfPresent() {
+      if (location.hash && location.hash.length > 1) {
+        const el = document.querySelector(location.hash);
+        if (el && el.dataset && el.dataset.section && el.dataset.slug) {
+          trackView(el.dataset.section, el.dataset.slug);
+        }
+      }
+    }
+    // Update hash, track, and copy to clipboard for convenience
+    function shareAndTrack(anchorId, section, slug) {
+      try {
+        history.replaceState(null, '', '#' + anchorId);
+        trackView(section, slug);
+        if (navigator.clipboard) navigator.clipboard.writeText(location.href);
+      } catch (e) {}
+      return false;
+    }
+    window.addEventListener('DOMContentLoaded', trackAnchorIfPresent);
+    window.addEventListener('hashchange', trackAnchorIfPresent);
+  </script>
 </head>
