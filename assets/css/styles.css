@@ -437,3 +437,50 @@ h1 { font-size: 1.6rem; line-height: 1.2; }  /* Keep your existing scale */
   font-weight: 700;
   margin: 0 0 10px;
 }
+
+/* --- Team: consistent alignment of image/text across all cards --- */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px 28px;
+  align-items: start;               /* grid rows align from the top */
+}
+
+/* Each member row: image + text perfectly aligned */
+.member {
+  display: grid;
+  grid-template-columns: 144px 1fr; /* fixed image column width */
+  column-gap: 16px;
+  align-items: center;              /* vertically center the pair */
+  min-height: 144px;                /* enforce equal row heights */
+}
+
+/* lock exact image size for everyone */
+.member img {
+  width: 144px;
+  height: 144px;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+  background: #f2eadf;
+}
+
+/* text stack centered against the image */
+.m-info {
+  display: grid;
+  row-gap: 6px;
+  align-content: center;            /* center text vertically */
+}
+
+.m-name { font-size: 1.1rem; line-height: 1.2; }
+.m-field { font-size: 1rem; color: #595f6a; line-height: 1.35; }
+
+/* Mobile: single column, still aligned */
+@media (max-width: 600px) {
+  .team-grid { grid-template-columns: 1fr; gap: 18px; }
+  .member {
+    grid-template-columns: 96px 1fr;  /* smaller image column */
+    min-height: 96px;
+  }
+  .member img { width: 96px; height: 96px; border-radius: 10px; }
+}
