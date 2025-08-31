@@ -269,3 +269,16 @@ h1{margin:0 0 6px; font-size:1.6rem}
   .links.icons a { width: 28px; height: 28px; }
   .links.icons svg { width: 15px; height: 15px; }
 }
+
+/* share icon + toast */
+.share { margin-left: 8px; text-decoration: none; opacity:.9 }
+.share:hover { text-decoration: underline; }
+.shareable { scroll-margin-top: 80px; } /* nice offset if header is fixed */
+
+#toast {
+  position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%);
+  background: rgba(20,20,20,.9); color:#fff; padding:8px 12px; border-radius: 10px;
+  font: 14px/1.2 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  opacity: 0; pointer-events: none; transition: opacity .2s ease;
+}
+#toast.show { opacity: 1; }
