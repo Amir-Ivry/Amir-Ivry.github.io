@@ -321,3 +321,33 @@ h1{margin:0 0 6px; font-size:1.6rem}
 /* Nice anchor jump offset if you have a sticky header */
 .shareable { scroll-margin-top: 72px; }
 
+/* Publications: share icon looks like plain text, hidden until hover/focus */
+.pubs .share-btn{
+  background: transparent;
+  border: 0;
+  padding: 0 4px;
+  margin-left: 8px;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  opacity: 0;                     /* hidden by default */
+  transition: opacity .12s ease;
+  text-decoration: none;          /* never underline */
+  appearance: none;               /* remove default button chrome */
+  -webkit-appearance: none;
+}
+
+.pubs li:hover .share-btn,
+.pubs li:focus-within .share-btn{
+  opacity: 1;                     /* show only on hover/focus */
+}
+
+.pubs .share-btn:focus{
+  outline: 2px solid #0e88cf44;   /* accessible focus ring */
+  border-radius: 6px;
+}
+
+.pubs .share-btn:hover,
+.pubs .share-btn:active{
+  text-decoration: none;          /* keep underline off */
+}
