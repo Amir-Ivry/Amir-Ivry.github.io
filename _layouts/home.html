@@ -1,29 +1,17 @@
 ---
 layout: default
 ---
-<section class="hero">
-  <div class="hero-inner">
-    <img class="avatar" src="{{ site.author.avatar | relative_url }}" alt="Portrait of {{ site.author.name }}">
-    <h1 class="hero-title">{{ site.author.name }}</h1>
-    <p class="hero-tagline">{{ site.tagline }}</p>
-    <p class="hero-abstract">{{ site.description }}</p>
-    <div class="hero-ctas">
-      <a class="btn" href="{{ '/publications/' | relative_url }}">Publications</a>
-      <a class="btn ghost" href="{{ '/code/' | relative_url }}">Code</a>
-      <a class="btn ghost" href="{{ '/blog/' | relative_url }}">Blog</a>
-      <a class="btn ghost" href="{{ '/cv/' | relative_url }}">CV</a>
-    </div>
-  </div>
-</section>
-
-<section class="section" aria-labelledby="selpubs">
+<section class="section container" aria-labelledby="selpubs">
   <h2 id="selpubs" class="section-title">Selected publications</h2>
   <ul class="list">
     {% assign featured = site.data.publications | where_exp: "p","p.selected == true" %}
     {% for p in featured %}
-      <li class="list-item">
+      {% assign slug = p.slug | default: p.title | slugify %}
+      {% assign anchor = p.year | append: "-" | append: slug %}
+      <li id="{{ anchor }}" data-section="selected-pubs" data-slug="{{ slug }}" class="list-item shareable">
         <span class="pub-title"><a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a></span>
         <span class="pub-meta">— {{ p.venue }} {{ p.year }}</span>
+        <a class="share" href="#{{ anchor }}" onclick="return shareAndTrack('{{ anchor }}','selected-pubs','{{ slug }}')" title="Share">🔗</a>
       </li>
     {% endfor %}
     {% if featured == empty %}
@@ -32,44 +20,3 @@ layout: default
   </ul>
   <p><a class="more" href="{{ '/publications/' | relative_url }}">See all publications →</a></p>
 </section>
-
-<section class="section" aria-labelledby="news">
-  <h2 id="news" class="section-title">Recent news</h2>
-  <ul class="news">
-    {% assign news = site.data.news | sort: "date" | reverse %}
-    {% for n in news limit:8 %}
-      <li class="news-item">
-        <time class="news-date" datetime="{{ n.date }}">{{ n.date }}</time>
-        <span class="news-text">
-          {% if n.url %}<a href="{{ n.url }}" target="_blank" rel="noopener">{{ n.text }}</a>{% else %}{{ n.text }}{% endif %}
-        </span>
-      </li>
-    {% endfor %}
-    {% if news == empty %}
-      <li class="news-item dim">Add items in `_data/news.yml`.</li>
-    {% endif %}
-  </ul>
-</section>
-
-<div class="social-icons">
-  {% if site.author.email %}
-    <a href="mailto:{{ site.author.email }}" class="icon email" aria-label="Email">
-      <i class="fa fa-envelope"></i>
-    </a>
-  {% endif %}
-  {% if site.social.github %}
-    <a href="https://github.com/{{ site.social.github }}" target="_blank" class="icon github" aria-label="GitHub">
-      <i class="fa fa-github"></i>
-    </a>
-  {% endif %}
-  {% if site.social.scholar %}
-    <a href="{{ site.social.scholar }}" target="_blank" class="icon scholar" aria-label="Google Scholar">
-      <i class="fa fa-graduation-cap"></i>
-    </a>
-  {% endif %}
-  {% if site.social.linkedin %}
-    <a href="{{ site.social.linkedin }}" target="_blank" class="icon linkedin" aria-label="LinkedIn">
-      <i class="fa fa-linkedin"></i>
-    </a>
-  {% endif %}
-</div>
