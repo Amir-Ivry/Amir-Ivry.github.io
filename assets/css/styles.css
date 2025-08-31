@@ -225,3 +225,47 @@ h1{margin:0 0 6px; font-size:1.6rem}
   background: #0b6ea9;
   color: #fff;
 }
+
+/* ---- MOBILE POLISH (Phones) ------------------------------------------- */
+@media (max-width: 768px) {
+  /* Global side margins + readable line length */
+  .container { max-width: 720px; padding-left: 16px; padding-right: 16px; }
+
+  /* Typography: slightly larger, calmer spacing */
+  body { font-size: 16px; line-height: 1.6; }
+  h1, h2, h3 { line-height: 1.25; margin-top: 0.8rem; margin-bottom: 0.5rem; }
+
+  /* Publications list: spacing + wrapping + icon row behavior */
+  .pubs { margin-top: 8px; }
+  .pubs li { padding: 10px 0; }
+  .pub-title { font-weight: 700; word-break: break-word; }
+  .pub-authors { font-size: 0.98rem; }
+  .pub-meta-row { gap: 8px; }
+  .pub-meta-row .left { flex: 1 1 auto; min-width: 200px; }
+  .pub-meta-row .right { flex: 0 0 auto; gap: 6px; }
+  .links.icons a { width: 30px; height: 30px; }
+  .links.icons svg { width: 16px; height: 16px; }
+
+  /* Team grid → single column, smaller portraits, tidy gaps */
+  .team-grid { grid-template-columns: 1fr; gap: 16px; }
+  .member { grid-template-columns: 96px 1fr; gap: 12px; }
+  .member img { width: 96px; height: 96px; border-radius: 10px; }
+  .m-name { font-size: 1.05rem; }
+  .m-field { font-size: 0.98rem; color: #555; }
+
+  /* News / generic lists with share icon */
+  .share { margin-left: 6px; }
+  .shareable { scroll-margin-top: 72px; }
+
+  /* Prevent horizontal scrolling due to long links/text */
+  .pub-title a, .pub-authors, .pub-meta-row, .m-info { word-break: break-word; overflow-wrap: anywhere; }
+}
+
+/* Very small phones (narrower than 380px) */
+@media (max-width: 380px) {
+  .container { padding-left: 12px; padding-right: 12px; }
+  .member { grid-template-columns: 84px 1fr; }
+  .member img { width: 84px; height: 84px; }
+  .links.icons a { width: 28px; height: 28px; }
+  .links.icons svg { width: 15px; height: 15px; }
+}
