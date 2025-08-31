@@ -351,3 +351,49 @@ h1{margin:0 0 6px; font-size:1.6rem}
 .pubs .share-btn:active{
   text-decoration: none;          /* keep underline off */
 }
+
+/* Selected Publications on Home */
+.selected-pubs .share-btn {
+  background: transparent;
+  border: 0;
+  padding: 0 4px;
+  margin-left: 8px;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity .12s ease;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.selected-pubs li:hover .share-btn,
+.selected-pubs li:focus-within .share-btn {
+  opacity: 1;
+}
+.selected-pubs .share-btn:focus {
+  outline: 2px solid #0e88cf44;
+  border-radius: 6px;
+}
+
+/* News on Home */
+.news .share-btn {
+  background: transparent;
+  border: 0;
+  padding: 0 4px;
+  margin-left: 8px;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity .12s ease;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.news li:hover .share-btn,
+.news li:focus-within .share-btn {
+  opacity: 1;
+}
+.news .share-btn:focus {
+  outline: 2px solid #0e88cf44;
+  border-radius: 6px;
+}
