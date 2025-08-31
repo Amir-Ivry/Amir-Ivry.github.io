@@ -5,8 +5,6 @@ permalink: /team/
 ---
 
 <div class="container">
-# Team
-
 {% assign phd = site.data.team.phd | default: empty %}
 {% assign msc = site.data.team.msc | default: empty %}
 
