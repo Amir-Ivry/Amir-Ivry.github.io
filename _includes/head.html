@@ -6,6 +6,45 @@
   <link rel="icon" href="{{ '/assets/img/favicon.png' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 
+<script>
+  // Toast for "Link copied"
+  function showToast(msg) {
+    let t = document.getElementById('toast');
+    if (!t) {
+      t = Object.assign(document.createElement('div'), { id: 'toast' });
+      document.body.appendChild(t);
+    }
+    t.textContent = msg;
+    t.className = 'show';
+    setTimeout(() => t.className = '', 1500);
+  }
+
+  async function shareItem(anchorId, section, slug) {
+    const url = location.origin + location.pathname + '#' + anchorId;
+
+    // Update URL hash and track virtual pageview
+    history.replaceState(null, '', '#' + anchorId);
+    if (window.plausible && section && slug) {
+      plausible('pageview', { u: location.origin + '/' + section + '/' + slug });
+    }
+
+    try {
+      if (navigator.share) {
+        await navigator.share({ title: document.title, url });
+        return false;
+      }
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(url);
+        showToast('Link copied');
+        return false;
+      }
+    } catch (_) {}
+    window.prompt('Copy link:', url);
+    return false;
+  }
+</script>
+
+  
 <script defer data-domain="amir-ivry.github.io" src="https://plausible.io/js/script.file-downloads.outbound-links.tagged-events.js"></script>
 <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 
