@@ -1,318 +1,294 @@
+# 🏅 Awards & Recognition
+
 - date: 2020-06-15
-  prefix: 🏅
-  link_text: ''
-  url: ''
-  suffix: I received the Jacobs Award for excellence in research for the second consecutive
-    year!
-  slug: i-received-the-jacobs-award-for-excellence-in-research-for-the-second-consecutiv
+  prefix: "🏅"
+  link_text: ""
+  url: ""
+  suffix: "I received the Jacobs Award for excellence in research for the second consecutive year!"
+
 - date: 2019-06-15
-  prefix: 🏅
-  link_text: ''
-  url: ''
-  suffix: I received the Jacobs Award for excellence in research!
-  slug: i-received-the-jacobs-award-for-excellence-in-research
+  prefix: "🏅"
+  link_text: ""
+  url: ""
+  suffix: "I received the Jacobs Award for excellence in research!"
+
 - date: 2021-11-12
-  prefix: 🏅
-  link_text: ''
-  url: ''
-  suffix: I received the Outstanding Research in Data Science Award from the Israel
-    Council for Higher Education!
-  slug: i-received-the-outstanding-research-in-data-science-award-from-the-israel-counci
+  prefix: "🏅"
+  link_text: ""
+  url: ""
+  suffix: "I received the Outstanding Research in Data Science Award from the Israel Council for Higher Education!"
+
 - date: 2021-09-01
-  prefix: 🏅
-  link_text: ''
-  url: ''
-  suffix: I was selected to present at the Interspeech Doctoral Consortium for excellent
-    PhD proposals!
-  slug: i-was-selected-to-present-at-the-interspeech-doctoral-consortium-for-excellent-p
+  prefix: "🏅"
+  link_text: ""
+  url: ""
+  suffix: "I was selected to present at the Interspeech Doctoral Consortium for excellent PhD proposals!"
+
 - date: 2021-08-15
-  prefix: 🏅
-  link_text: ''
-  url: ''
-  suffix: I was awarded the International Speech Communication Association (ISCA)
-    Grant!
-  slug: i-was-awarded-the-international-speech-communication-association-isca-grant
+  prefix: "🏅"
+  link_text: ""
+  url: ""
+  suffix: "I was awarded the International Speech Communication Association (ISCA) Grant!"
+
 - date: 2024-07-01
-  prefix: 🏅
-  link_text: ''
-  url: ''
-  suffix: We won Microsoft’s Global Hackathon!
-  slug: we-won-microsofts-global-hackathon
+  prefix: "🏅"
+  link_text: ""
+  url: ""
+  suffix: "We won Microsoft’s Global Hackathon!"
+
 - date: 2024-06-20
-  prefix: 🏅
-  link_text: ''
-  url: ''
-  suffix: I was elevated to IEEE Senior Member status!
-  slug: i-was-elevated-to-ieee-senior-member-status
+  prefix: "🏅"
+  link_text: ""
+  url: ""
+  suffix: "I was elevated to IEEE Senior Member status!"
+
 - date: 2022-02-02
-  prefix: 🏅
-  link_text: ''
-  url: ''
-  suffix: I was named to the Forbes 30 Under 30 list in Science & Technology!
-  slug: i-was-named-to-the-forbes-30-under-30-list-in-science-technology
+  prefix: "🏅"
+  link_text: ""
+  url: ""
+  suffix: "I was named to the Forbes 30 Under 30 list in Science & Technology!"
+
 - date: 2024-03-10
-  prefix: 🏅
-  link_text: ''
-  url: ''
-  suffix: I was appointed as AI Chapter Chairman in Israel!
-  slug: i-was-appointed-as-ai-chapter-chairman-in-israel
+  prefix: "🏅"
+  link_text: ""
+  url: ""
+  suffix: "I was appointed as AI Chapter Chairman in Israel!"
+
 - date: 2024-02-05
-  prefix: 🏅 We officially released the
-  link_text: NOTSOFAR-1 Challenge!
-  url: https://github.com/microsoft/NOTSOFAR1-Challenge/tree/main
-  suffix: ''
-  slug: https-github-com-microsoft-notsofar1-challenge-tree-main
+  prefix: "🏅 We officially released the"
+  link_text: "NOTSOFAR-1 Challenge!"
+  url: "https://github.com/microsoft/NOTSOFAR1-Challenge/tree/main"
+  suffix: ""
+
+# 🎓 Academic Milestones
+
 - date: 2020-01-01
-  prefix: 🎓
-  link_text: ''
-  url: ''
-  suffix: I will re-serve as a Teaching Assistent in the Graduate Course "Array Signal
-    Processing and Analysis", led by Prof. Israel Cohen!
-  slug: i-will-re-serve-as-a-teaching-assistent-in-the-graduate-course-array-signal-proc
+  prefix: "🎓"
+  link_text: ""
+  url: ""
+  suffix: "I will re-serve as a Teaching Assistent in the Graduate Course \"Array Signal Processing and Analysis\", led by Prof. Israel Cohen!"
+
 - date: 2019-01-01
-  prefix: 🎓
-  link_text: ''
-  url: ''
-  suffix: I will serve as a Teaching Assistent in the Graduate Course "Array Signal
-    Processing and Analysis", led by Prof. Israel Cohen!
-  slug: i-will-serve-as-a-teaching-assistent-in-the-graduate-course-array-signal-process
+  prefix: "🎓"
+  link_text: ""
+  url: ""
+  suffix: "I will serve as a Teaching Assistent in the Graduate Course \"Array Signal Processing and Analysis\", led by Prof. Israel Cohen!"
+
 - date: 2023-12-14
-  prefix: 🎓 I officialy have a
-  link_text: PhD
-  url: /assets/papers/PhD_thesis_Ivry.pdf
-  suffix: in Electrical and Computer Engineering from the Technion!
-  slug: in-electrical-and-computer-engineering-from-the-technion
+  prefix: "🎓 I officialy have a"
+  link_text: "PhD"
+  url: "/assets/papers/PhD_thesis_Ivry.pdf"
+  suffix: "in Electrical and Computer Engineering from the Technion!"
+
+# 💼 Appointments & Jobs
+
 - date: 2021-09-19
-  prefix: 💼
-  link_text: ''
-  url: ''
-  suffix: I joined Microsoft as an Applied Research Intern!
-  slug: i-joined-microsoft-as-an-applied-research-intern
+  prefix: "💼"
+  link_text: ""
+  url: ""
+  suffix: "I joined Microsoft as an Applied Research Intern!"
+
 - date: 2022-06-15
-  prefix: 💼
-  link_text: ''
-  url: ''
-  suffix: I have been promoted to a Principal Level and will serve as a Research Scientist
-    in Microsoft!
-  slug: i-have-been-promoted-to-a-principal-level-and-will-serve-as-a-research-scientist
+  prefix: "💼"
+  link_text: ""
+  url: ""
+  suffix: "I have been promoted to a Principal Level and will serve as a Research Scientist in Microsoft!"
+
 - date: 2024-10-01
-  prefix: 💼
-  link_text: ''
-  url: ''
-  suffix: I have been appointed as a Visiting Researcher in the Electrical and Computer
-    Engineering Faculty in the Technion
-  slug: i-have-been-appointed-as-a-visiting-researcher-in-the-electrical-and-computer-en
+  prefix: "💼"
+  link_text: ""
+  url: ""
+  suffix: "I have been appointed as a Visiting Researcher in the Electrical and Computer Engineering Faculty in the Technion"
+
+# 👋 New Team Members
+
 - date: 2024-10-01
-  prefix: 👋
-  link_text: ''
-  url: ''
-  suffix: Welcome Yair Amar to the team!
-  slug: welcome-yair-amar-to-the-team
+  prefix: "👋"
+  link_text: ""
+  url: ""
+  suffix: "Welcome Yair Amar to the team!"
+
 - date: 2025-02-01
-  prefix: 👋
-  link_text: ''
-  url: ''
-  suffix: Welcome Gil Weissman to the team!
-  slug: welcome-gil-weissman-to-the-team
+  prefix: "👋"
+  link_text: ""
+  url: ""
+  suffix: "Welcome Gil Weissman to the team!"
+
 - date: 2025-07-01
-  prefix: 👋
-  link_text: ''
-  url: ''
-  suffix: Welcome Omer Holtzman to the team!
-  slug: welcome-omer-holtzman-to-the-team
+  prefix: "👋"
+  link_text: ""
+  url: ""
+  suffix: "Welcome Omer Holtzman to the team!"
+
+# 🎤 Lectures (parsed from CV)
+
 - date: 2020-09-15
-  prefix: 🎤
-  link_text: ''
-  url: ''
-  suffix: I gave lecture on "Real-Time Residual Echo Suppression with Deep Learning"
-    in the 4th Israeli Speech Recognition Conference, Israel!
-  slug: i-gave-lecture-on-real-time-residual-echo-suppression-with-deep-learning-in-the-
+  prefix: "🎤"
+  link_text: ""
+  url: ""
+  suffix: "I gave lecture on \"Real-Time Residual Echo Suppression with Deep Learning\" in the 4th Israeli Speech Recognition Conference, Israel!"
+
 - date: 2021-06-01
-  prefix: 🎤 I gave
-  link_text: lecture
-  url: https://www.youtube.com/watch?v=VxmGddnEkQc&t=1135s
-  suffix: on "Voice Activity Detection for Transient Noisy Environment Based on Diffusion
-    Nets" in MIT CSAIL!
-  slug: on-voice-activity-detection-for-transient-noisy-environment-based-on-diffusion-n
+  prefix: "🎤 I gave"
+  link_text: "lecture"
+  url: "https://www.youtube.com/watch?v=VxmGddnEkQc&t=1135s"
+  suffix: "on \"Voice Activity Detection for Transient Noisy Environment Based on Diffusion Nets\" in MIT CSAIL!"
+
 - date: 2021-05-15
-  prefix: 🎤
-  link_text: ''
-  url: ''
-  suffix: I gave lecture on "Real-Time Residual Echo Suppression with Deep Learning"
-    in the 1st Technion-Hanyang research workshop, Israel!
-  slug: i-gave-lecture-on-real-time-residual-echo-suppression-with-deep-learning-in-the-
+  prefix: "🎤"
+  link_text: ""
+  url: ""
+  suffix: "I gave lecture on \"Real-Time Residual Echo Suppression with Deep Learning\" in the 1st Technion-Hanyang research workshop, Israel!"
+
 - date: 2021-05-01
-  prefix: 🎤
-  link_text: ''
-  url: ''
-  suffix: I gave lecture on "Audio Intelligence" in Alibaba Deep Learning Meetup,
-    Israel!
-  slug: i-gave-lecture-on-audio-intelligence-in-alibaba-deep-learning-meetup-israel
+  prefix: "🎤"
+  link_text: ""
+  url: ""
+  suffix: "I gave lecture on \"Audio Intelligence\" in Alibaba Deep Learning Meetup, Israel!"
+
 - date: 2020-06-01
-  prefix: 🎤
-  link_text: ''
-  url: ''
-  suffix: I gave lecture on "Audio Intelligence" in the AI & Data Israeli Community
-    Conference, Israel!
-  slug: i-gave-lecture-on-audio-intelligence-in-the-ai-data-israeli-community-conference
+  prefix: "🎤"
+  link_text: ""
+  url: ""
+  suffix: "I gave lecture on \"Audio Intelligence\" in the AI & Data Israeli Community Conference, Israel!"
+
 - date: 2019-05-01
-  prefix: 🎤
-  link_text: ''
-  url: ''
-  suffix: I gave lecture on "Fraud Detection with Deep Learning" in Google for Start-ups,
-    Israel!
-  slug: i-gave-lecture-on-fraud-detection-with-deep-learning-in-google-for-start-ups-isr
+  prefix: "🎤"
+  link_text: ""
+  url: ""
+  suffix: "I gave lecture on \"Fraud Detection with Deep Learning\" in Google for Start-ups, Israel!"
+
 - date: 2019-06-01
-  prefix: 🎤
-  link_text: ''
-  url: ''
-  suffix: I gave lecture on "Fraud Detection with Deep Learning" in the Annual Conference
-    for Open-Source Code in the Defense Sector, Israel!
-  slug: i-gave-lecture-on-fraud-detection-with-deep-learning-in-the-annual-conference-fo
+  prefix: "🎤"
+  link_text: ""
+  url: ""
+  suffix: "I gave lecture on \"Fraud Detection with Deep Learning\" in the Annual Conference for Open-Source Code in the Defense Sector, Israel!"
+
+
+# 📄 Publications
+
 - date: 2025-04-06
-  prefix: 📄 Our
-  link_text: paper
-  url: /assets/papers/eures2_ivry.pdf
-  suffix: '"E-URES 2.0: Efficient User-Centric Residual-Echo Suppression with a Lightweight
-    Neural Network" has been accepted to ICASSP!'
-  slug: e-ures-2-0-efficient-user-centric-residual-echo-suppression-with-a-lightweight-n
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/eures2_ivry.pdf"
+  suffix: "\"E-URES 2.0: Efficient User-Centric Residual-Echo Suppression with a Lightweight Neural Network\" has been accepted to ICASSP!"
+
 - date: 2025-01-08
-  prefix: 📄 Our
-  link_text: paper
-  url: /assets/papers/summary_abram.pdf
-  suffix: '"Summary of the NOTSOFAR-1 challenge: Highlights and learnings" has been
-    accepted to Computer Speech & Language Journal!'
-  slug: summary-of-the-notsofar-1-challenge-highlights-and-learnings-has-been-accepted-t
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/summary_abram.pdf"
+  suffix: "\"Summary of the NOTSOFAR-1 challenge: Highlights and learnings\" has been accepted to Computer Speech & Language Journal!"
+
 - date: 2024-09-09
-  prefix: 📄 Our
-  link_text: paper
-  url: /assets/papers/eures_ivry.pdf
-  suffix: '"E-URES: Efficient user-centric residual-echo suppression framework with
-    a data-driven approach to reducing computational costs" has been accepted to IWAENC!'
-  slug: e-ures-efficient-user-centric-residual-echo-suppression-framework-with-a-data-dr
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/eures_ivry.pdf"
+  suffix: "\"E-URES: Efficient user-centric residual-echo suppression framework with a data-driven approach to reducing computational costs\" has been accepted to IWAENC!"
+
 - date: 2024-03-06
-  prefix: 📄 Our
-  link_text: paper
-  url: /assets/papers/usercentric_ivry.pdf
-  suffix: '"A user-centric approach for deep residual-echo suppression in double-talk"
-    has been accepted to IEEE/ACM Transactions on Audio, Speech, and Language Processing!'
-  slug: a-user-centric-approach-for-deep-residual-echo-suppression-in-double-talk-has-be
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/usercentric_ivry.pdf"
+  suffix: "\"A user-centric approach for deep residual-echo suppression in double-talk\" has been accepted to IEEE/ACM Transactions on Audio, Speech, and Language Processing!"
+
 - date: 2024-01-16
-  prefix: 📄 Our
-  link_text: paper
-  url: https://www.isca-archive.org/interspeech_2024/vinnikov24_interspeech.pdf
-  suffix: '"NOTSOFAR-1 challenge: New datasets, baseline, and tasks for distant meeting
-    transcription" has been accepted to Interspeech!'
-  slug: notsofar-1-challenge-new-datasets-baseline-and-tasks-for-distant-meeting-transcr
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "https://www.isca-archive.org/interspeech_2024/vinnikov24_interspeech.pdf"
+  suffix: "\"NOTSOFAR-1 challenge: New datasets, baseline, and tasks for distant meeting transcription\" has been accepted to Interspeech!"
+
 - date: 2023-10-22
-  prefix: 📄 Our
-  link_text: paper
-  url: /assets/papers/deepadaptationmono_ivry.pdf
-  suffix: '"Deep adaptation control for stereophonic acoustic echo cancellation" has
-    been accepted to WASPAA!'
-  slug: deep-adaptation-control-for-stereophonic-acoustic-echo-cancellation-has-been-acc
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/deepadaptationmono_ivry.pdf"
+  suffix: "\"Deep adaptation control for stereophonic acoustic echo cancellation\" has been accepted to WASPAA!"
+
 - date: 2022-09-18
-  prefix: 📄 Our
-  link_text: paper
-  url: /assets/papers/objective_ivry.pdf
-  suffix: '"Objective Metrics to Evaluate Residual-Echo Suppression During Double-Talk
-    in the Stereophonic Case" has been accepted to INTERSPEECH!'
-  slug: objective-metrics-to-evaluate-residual-echo-suppression-during-double-talk-in-th
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/objective_ivry.pdf"
+  suffix: "\"Objective Metrics to Evaluate Residual-Echo Suppression During Double-Talk in the Stereophonic Case\" has been accepted to INTERSPEECH!"
+
 - date: 2022-05-23
-  prefix: 📄 Our
-  link_text: paper
-  url: /assets/papers/deepadaptationmono_ivry.pdf
-  suffix: '"Deep adaptation control for acoustic echo cancellation" has been accepted
-    to ICASSP!'
-  slug: deep-adaptation-control-for-acoustic-echo-cancellation-has-been-accepted-to-icas
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/deepadaptationmono_ivry.pdf"
+  suffix: "\"Deep adaptation control for acoustic echo cancellation\" has been accepted to ICASSP!"
+
 - date: 2022-05-23
-  prefix: 📄 Our
-  link_text: paper
-  url: /assets/papers/offtheshelf_ivry.pdf
-  suffix: '"Off-the-shelf deep integration for residual-echo suppression" has been
-    accepted to ICASSP!'
-  slug: off-the-shelf-deep-integration-for-residual-echo-suppression-has-been-accepted-t
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/offtheshelf_ivry.pdf"
+  suffix: "\"Off-the-shelf deep integration for residual-echo suppression\" has been accepted to ICASSP!"
+
 - date: 2021-12-30
-  prefix: 📄 Our
-  link_text: book
-  url: https://arxiv.org/pdf/2201.00650
-  suffix: '"Deep learning interviews: hundreds of fully solved job interview questions
-    from a wide range of key topics in AI" is now available on arXiv!'
-  slug: deep-learning-interviews-hundreds-of-fully-solved-job-interview-questions-from-a
+  prefix: "📄 Our"
+  link_text: "book"
+  url: "https://arxiv.org/pdf/2201.00650"
+  suffix: "\"Deep learning interviews: hundreds of fully solved job interview questions from a wide range of key topics in AI\" is now available on arXiv!"
+
 - date: 2021-10-17
-  prefix: 📄 Our
-  link_text: paper
-  url: /assets/papers/objectivemono_ivry.pdf
-  suffix: '"Objective metrics to evaluate residual-echo suppression during double-talk"
-    has been accepted to WASPAA!'
-  slug: objective-metrics-to-evaluate-residual-echo-suppression-during-double-talk-has-b
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/objectivemono_ivry.pdf"
+  suffix: "\"Objective metrics to evaluate residual-echo suppression during double-talk\" has been accepted to WASPAA!"
+
 - date: 2021-08-30
-  prefix: 📄 Our
-  link_text: paper
-  url: /assets/papers/nonlinear_ivry.pdf
-  suffix: '"Nonlinear acoustic echo cancellation with deep learning" has been accepted
-    to Interspeech!'
-  slug: nonlinear-acoustic-echo-cancellation-with-deep-learning-has-been-accepted-to-int
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/nonlinear_ivry.pdf"
+  suffix: "\"Nonlinear acoustic echo cancellation with deep learning\" has been accepted to Interspeech!"
+
 - date: 2021-06-06
-  prefix: 📄 Our
-  link_text: paper
-  url: /assets/papers/deepresidual_ivry.pdf
-  suffix: '"Deep residual echo suppression with a tunable tradeoff between signal
-    distortion and echo suppression" has been accepted to ICASSP!'
-  slug: deep-residual-echo-suppression-with-a-tunable-tradeoff-between-signal-distortion
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/deepresidual_ivry.pdf"
+  suffix: "\"Deep residual echo suppression with a tunable tradeoff between signal distortion and echo suppression\" has been accepted to ICASSP!"
+
 - date: 2021-05-31
-  prefix: 📄 Our
-  link_text: paper
-  url: /assets/papers/multiclass_ivry.pdf
-  suffix: '"Multiclass permanent magnets superstructure for indoor localization using
-    artificial intelligence" has been published in IEEE Transactions on Magnetics!'
-  slug: multiclass-permanent-magnets-superstructure-for-indoor-localization-using-artifi
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/multiclass_ivry.pdf"
+  suffix: "\"Multiclass permanent magnets superstructure for indoor localization using artificial intelligence\" has been published in IEEE Transactions on Magnetics!"
+
 - date: 2021-01-01
-  prefix: 📄 Our
-  link_text: paper
-  url: /assets/papers/smartphone_ivry.pdf
-  suffix: '"Smartphone based indoor localization using permanent magnets and artificial
-    intelligence for pattern recognition" has been published in AIP Advances!'
-  slug: smartphone-based-indoor-localization-using-permanent-magnets-and-artificial-inte
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/smartphone_ivry.pdf"
+  suffix: "\"Smartphone based indoor localization using permanent magnets and artificial intelligence for pattern recognition\" has been published in AIP Advances!"
+
 - date: 2020-05-04
-  prefix: 📄 Our
-  link_text: paper
-  url: /assets/papers/evaluationVAD_ivry.pdf
-  suffix: '"Evaluation of deep-learning-based voice activity detectors and room impulse
-    response models in reverberant environments" has been accepted to ICASSP!'
-  slug: evaluation-of-deep-learning-based-voice-activity-detectors-and-room-impulse-resp
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/evaluationVAD_ivry.pdf"
+  suffix: "\"Evaluation of deep-learning-based voice activity detectors and room impulse response models in reverberant environments\" has been accepted to ICASSP!"
+
 - date: 2019-07-07
-  prefix: 📄 Our
-  link_text: paper
-  url: /assets/papers/lowpower_alimi.pdf
-  suffix: '"Low power in situ AI calibration of a three-axial magnetic sensor" has
-    been published in IEEE Transactions on Magnetics!'
-  slug: low-power-in-situ-ai-calibration-of-a-three-axial-magnetic-sensor-has-been-publi
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/lowpower_alimi.pdf"
+  suffix: "\"Low power in situ AI calibration of a three-axial magnetic sensor\" has been published in IEEE Transactions on Magnetics!"
+
 - date: 2019-08-19
-  prefix: 📄 Our
-  link_text: paper
-  url: /assets/papers/machinelearning_Alimi.pdf
-  suffix: '"Machine-Learning Detection Algorithms for Large Barkhausen Jumps in Cluttered
-    Environment" has been published in IEEE Magnetics Letters!'
-  slug: machine-learning-detection-algorithms-for-large-barkhausen-jumps-in-cluttered-en
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/machinelearning_Alimi.pdf"
+  suffix: "\"Machine-Learning Detection Algorithms for Large Barkhausen Jumps in Cluttered Environment\" has been published in IEEE Magnetics Letters!"
+
 - date: 2019-04-04
-  prefix: 📄 Our
-  link_text: paper
-  url: /assets/papers/vad_ivry.pdf
-  suffix: '"Voice activity detection for transient noisy environment based on diffusion
-    nets" has been published in IEEE Journal of Selected Topics in Signal Processing!'
-  slug: voice-activity-detection-for-transient-noisy-environment-based-on-diffusion-nets
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/vad_ivry.pdf"
+  suffix: "\"Voice activity detection for transient noisy environment based on diffusion nets\" has been published in IEEE Journal of Selected Topics in Signal Processing!"
+
 - date: 2018-12-09
-  prefix: 📄 Our
-  link_text: paper
-  url: /assets/papers/Investigation-Weiss.pdf
-  suffix: '"Investigation and modeling of large Barkhausen jumps dynamics in low-power
-    fluxgate magnetometers" has been published in IEEE Sensors Journal!'
-  slug: investigation-and-modeling-of-large-barkhausen-jumps-dynamics-in-low-power-fluxg
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/Investigation-Weiss.pdf"
+  suffix: "\"Investigation and modeling of large Barkhausen jumps dynamics in low-power fluxgate magnetometers\" has been published in IEEE Sensors Journal!"
+
 - date: 2016-11-16
-  prefix: 📄 Our
-  link_text: paper
-  url: /assets/papers/enhancement_benisty.pdf
-  suffix: '"Enhancement of BCI classifiers through domain adaptation" has been accepted
-    to ICSEE!'
-  slug: enhancement-of-bci-classifiers-through-domain-adaptation-has-been-accepted-to-ic
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/enhancement_benisty.pdf"
+  suffix: "\"Enhancement of BCI classifiers through domain adaptation\" has been accepted to ICSEE!"
