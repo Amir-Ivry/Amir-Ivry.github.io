@@ -4,6 +4,7 @@ title: Team
 permalink: /team/
 ---
 
+<div class="container">
 # Team
 
 {% assign phd = site.data.team.phd | default: empty %}
@@ -13,10 +14,16 @@ permalink: /team/
 <h3 class="team-head">PhD Students</h3>
 <div class="team-grid">
   {% for s in phd %}
-  <div class="member">
+  {% assign slug = s.slug | default: s.name | slugify %}
+  {% assign anchor = 'team-' | append: slug %}
+  <div id="{{ anchor }}" class="member shareable" data-section="students" data-slug="{{ slug }}">
     <img src="{{ s.photo | relative_url }}" alt="{{ s.name }}">
     <div class="m-info">
-      <div class="m-name"><strong>{{ s.name }}</strong></div>
+      <div class="m-name">
+        <strong>{{ s.name }}</strong>
+        <a class="share" href="#{{ anchor }}"
+           onclick="return shareItem('{{ anchor }}','students','{{ slug }}')">🔗</a>
+      </div>
       <div class="m-field">{{ s.field }}</div>
     </div>
   </div>
@@ -28,13 +35,20 @@ permalink: /team/
 <h3 class="team-head">MSc Students</h3>
 <div class="team-grid">
   {% for s in msc %}
-  <div class="member">
+  {% assign slug = s.slug | default: s.name | slugify %}
+  {% assign anchor = 'team-' | append: slug %}
+  <div id="{{ anchor }}" class="member shareable" data-section="students" data-slug="{{ slug }}">
     <img src="{{ s.photo | relative_url }}" alt="{{ s.name }}">
     <div class="m-info">
-      <div class="m-name"><strong>{{ s.name }}</strong></div>
+      <div class="m-name">
+        <strong>{{ s.name }}</strong>
+        <a class="share" href="#{{ anchor }}"
+           onclick="return shareItem('{{ anchor }}','students','{{ slug }}')">🔗</a>
+      </div>
       <div class="m-field">{{ s.field }}</div>
     </div>
   </div>
   {% endfor %}
 </div>
 {% endif %}
+</div>
