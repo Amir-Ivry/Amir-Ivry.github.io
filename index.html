@@ -38,12 +38,18 @@ permalink: /
 <!-- Selected Publications -->
 <section class="section container">
   <h2>Selected Publications</h2>
-  <ul class="pubs">
+  <ul class="pubs selected-pubs">
     {% assign selected = site.data.publications | where: "selected", true %}
     {% for p in selected %}
       {% assign paper_url = p.pdf | default: p.paper | default: p.link %}
-      <li>
-        <div class="pub-title">{{ p.title }}</div>
+      {% assign slug = p.slug | default: p.title | slugify %}
+      {% assign anchor = p.year | append: "-" | append: slug %}
+      <li id="{{ anchor }}" class="shareable" data-section="selected-pubs" data-slug="{{ slug }}">
+        <div class="pub-title">
+          {{ p.title }}
+          <button class="share-btn" type="button" aria-label="Copy link to {{ p.title }}"
+                  onclick="return shareItem('{{ anchor }}','selected-pubs','{{ slug }}')">🔗</button>
+        </div>
 
         {% if p.authors %}
           <div class="pub-authors">
@@ -97,7 +103,10 @@ permalink: /
     {% assign items = site.data.news | sort: "date" | reverse %}
     {% for n in items %}
       {% assign idx = forloop.index %}
-      <li class="news-item{% if idx > 10 %} is-hidden{% endif %}">
+      {% assign slug = n.slug | default: n.suffix | default: n.text | slugify %}
+      {% assign anchor = n.date | append: "-" | append: slug %}
+      <li id="{{ anchor }}" class="news-item shareable{% if idx > 10 %} is-hidden{% endif %}"
+          data-section="news" data-slug="{{ slug }}">
         <span class="date">{{ n.date }}</span>
         <span class="news-text">
           {% if n.link_text and n.url %}
@@ -107,6 +116,8 @@ permalink: /
           {% else %}
             {{ n.text }}
           {% endif %}
+          <button class="share-btn" type="button" aria-label="Copy link to this news"
+                  onclick="return shareItem('{{ anchor }}','news','{{ slug }}')">🔗</button>
         </span>
       </li>
     {% endfor %}
