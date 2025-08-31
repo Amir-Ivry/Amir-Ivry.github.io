@@ -7,42 +7,44 @@
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 
 <script>
-  // Toast for "Link copied"
+  // Tiny toast
   function showToast(msg) {
     let t = document.getElementById('toast');
     if (!t) {
-      t = Object.assign(document.createElement('div'), { id: 'toast' });
+      t = document.createElement('div');
+      t.id = 'toast';
       document.body.appendChild(t);
     }
     t.textContent = msg;
     t.className = 'show';
-    setTimeout(() => t.className = '', 1500);
+    setTimeout(() => t.className = '', 1300);
   }
 
+  // Copy-only share (no native share window)
   async function shareItem(anchorId, section, slug) {
     const url = location.origin + location.pathname + '#' + anchorId;
-
-    // Update URL hash and track virtual pageview
+    // keep URL in address bar in case they reload/share
     history.replaceState(null, '', '#' + anchorId);
+
+    // (optional) analytics, silent
     if (window.plausible && section && slug) {
-      plausible('pageview', { u: location.origin + '/' + section + '/' + slug });
+      try { plausible('pageview', { u: location.origin + '/' + section + '/' + slug }); } catch(e){}
     }
 
     try {
-      if (navigator.share) {
-        await navigator.share({ title: document.title, url });
-        return false;
-      }
       if (navigator.clipboard?.writeText) {
         await navigator.clipboard.writeText(url);
         showToast('Link copied');
         return false;
       }
-    } catch (_) {}
+    } catch(e){}
+
+    // fallback prompt
     window.prompt('Copy link:', url);
     return false;
   }
 </script>
+
 
   
 <script defer data-domain="amir-ivry.github.io" src="https://plausible.io/js/script.file-downloads.outbound-links.tagged-events.js"></script>
