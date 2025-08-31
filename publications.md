@@ -19,8 +19,8 @@ permalink: /publications/
     <li id="{{ anchor }}" class="shareable" data-section="publications" data-slug="{{ slug }}">
       <div class="pub-title">
         {{ p.title }}
-        <button class="share-btn" type="button" aria-label="Copy link to {{ p.title }}"
-                onclick="return shareItem('{{ anchor }}','publications','{{ slug }}')">🔗</button>
+          <button class="share-btn" type="button" aria-label="Copy link to {{ p.title }}"
+          onclick="return shareItem('{{ anchor }}','publications','{{ slug }}')">🔗</button>
       </div>
 
       {%- if p.authors -%}
