@@ -397,3 +397,34 @@ h1{margin:0 0 6px; font-size:1.6rem}
   outline: 2px solid #0e88cf44;
   border-radius: 6px;
 }
+
+/* --- Hero alignment + photo sizing (web) --- */
+.hero {
+  display: grid;
+  grid-template-columns: auto 1fr; /* photo auto-sizes, text takes rest */
+  gap: 24px;
+  align-items: center;              /* vertical-align photo with H1 */
+}
+
+.photo-col {
+  display: flex;
+  align-items: center;              /* center photo vertically in its cell */
+  justify-content: center;          /* balanced side margins */
+}
+
+.photo {
+  width: 268px;                     /* slightly bigger, same aspect ratio feel */
+  height: 330px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #f2eadf;
+}
+
+/* ensure the image fills the frame cleanly */
+.photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+/* mobile: keep proportions, reduce size a bit */
+@media (max-width: 800px) {
+  .hero { grid-template-columns: 1fr; }
+  .photo { width: 220px; height: 276px; margin: 0 auto; }
+}
