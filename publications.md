@@ -4,6 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
+<div class="container">
 {%- assign groups = site.data.publications | group_by: "year" | sort: "name" | reverse -%}
 
 {%- for g in groups -%}
@@ -13,8 +14,14 @@ permalink: /publications/
 <ul class="pubs">
   {%- for p in g.items -%}
     {%- assign paper_url = p.pdf | default: p.paper | default: p.link -%}
-    <li>
-      <div class="pub-title">{{ p.title }}</div>
+    {%- assign slug = p.slug | default: p.title | slugify -%}
+    {%- assign anchor = g.name | append: "-" | append: slug -%}
+    <li id="{{ anchor }}" class="shareable" data-section="publications" data-slug="{{ slug }}">
+      <div class="pub-title">
+        {{ p.title }}
+        <button class="share-btn" type="button" aria-label="Copy link to {{ p.title }}"
+                onclick="return shareItem('{{ anchor }}','publications','{{ slug }}')">🔗</button>
+      </div>
 
       {%- if p.authors -%}
       <div class="pub-authors">
@@ -53,7 +60,7 @@ permalink: /publications/
           <a href="{{ p.project | relative_url }}" target="_blank" rel="noopener" aria-label="Project page" title="Project page">
             <!-- globe icon -->
             <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm0 1.5c1.7 0 3.2.5 4.5 1.4-2.4.6-4.3 2.9-5 6.1H6.2A8.5 8.5 0 0 1 12 3.5Zm-8.3 7.5h4.4c-.1.5-.1 1-.1 1.5s0 1 .1 1.5H3.7A8.4 8.4 0 0 1 3.5 12c0-.3 0-.7.2-1Zm1.5 5.9h5.3c.7 3.1 2.6 5.4 5 6a8.5 8.5 0 0 1-10.3-6Zm6.8 0h5.3A7.8 7.8 0 0 1 12 21.5c-1.4-.3-2.7-2-3.3-4.6ZM20.3 9h-5.3c-.6-2.6-1.9-4.3-3.3-4.6A7.8 7.8 0 0 1 20.3 9ZM15 12c0 .5 0 1-.1 1.5H9.1A7.7 7.7 0 0 1 9 12c0-.5 0-1 .1-1.5h5.8ZM14.2 18h5.1A8.5 8.5 0 0 1 18 20.6c-1.7-.3-3.1-1.3-3.8-2.6Z"/>
+              <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm0 1.5c1.7 0 3.2.5 4.5 1.4-2.4.6-4.3 2.9-5 6.1H6.2A8.5 8.5 0 0 1 12 3.5Zm-8.3 7.5h4.4c-.1.5-.1 1-.1 1.5s0 1 .1 1.5H3.7A8.4 8.4 0 0 1 3.5 12c0-.3 0-.7.2-1Zm1.5 5.9h5.3c.7 3.1 2.6 5.4 5 6a8.5 8.5 0 0 1-10.3-6Zm6.8 0h5.3A7.8 7.8 0 0 1 12 21.5c-1.4-.3-2.7-2-3.3-4.6ZM20.3 9h-5.3c-.6-2.6-1.9-4.3-3.3-4.6A7.8 7.8 0 0 1 20.3 9ZM15 12c0 .5 0 1-.1 1.5H9.1A7.7 7.7 0 0 1 9 12c0-.5 0-1 .1-1.5h5.8Z"/>
             </svg>
           </a>
           {%- endif -%}
@@ -72,3 +79,4 @@ permalink: /publications/
 </ul>
   {%- endif -%}
 {%- endfor -%}
+</div>
