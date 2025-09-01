@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amir-ivry.github.io/sitemap.xml
