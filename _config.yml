@@ -29,3 +29,5 @@ nav:
   - title: Team
     url: /team/
 
+plugins:
+  - jekyll-sitemap
