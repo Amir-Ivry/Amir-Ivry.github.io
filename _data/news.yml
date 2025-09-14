@@ -167,6 +167,12 @@
 
 # 📄 Publications
 
+- date: 2025-09-11
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "https://arxiv.org/abs/2509.09212v1"
+  suffix: "\"MAPSS: Manifold-based Assessment of Perceptual Source Separation\" is now available on Arxiv with code and HF space!"
+
 - date: 2025-04-06
   prefix: "📄 Our"
   link_text: "paper"
