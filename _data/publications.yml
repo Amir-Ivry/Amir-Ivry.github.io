@@ -4,6 +4,7 @@
   year: 2025
   link: "https://arxiv.org/abs/2509.09212"
   code: "https://github.com/Amir-Ivry/MAPSS-measures"
+  demo: "https://huggingface.co/spaces/AIvry/MAPSS-measures"
   project: ""
   video: ""
   selected: true
