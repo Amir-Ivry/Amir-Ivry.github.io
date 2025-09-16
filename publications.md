@@ -72,6 +72,12 @@ permalink: /publications/
             </svg>
           </a>
           {%- endif -%}
+          {%- if p.demo and p.demo != "" -%}
+          <a href="{{ p.demo }}" target="_blank" rel="noopener" aria-label="Hugging Face Space" title="Hugging Face Space">
+            <!-- Simple, accessible icon: the 🤗 emoji in the existing circular button -->
+            <span style="font-size:14px; line-height:1">🤗</span>
+          </a>
+          {%- endif -%}
         </div>
       </div>
     </li>
