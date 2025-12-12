@@ -1,3 +1,25 @@
+- title: "Beyond Performance: Probing Representations Dynamic in Speech Enhacement Models"
+  authors: "Gil Weissman, Amir Ivry, Israel Cohen"
+  venue: "Arxiv (submitted to IEEE Transactions on Geoscience and Remote Sensing)"
+  year: 2025
+  link: "https://www.arxiv.org/pdf/2512.09670"
+  code: ""
+  demo: ""
+  project: ""
+  video: ""
+  selected: False
+  
+- title: "Beyond Performance: Probing Representations Dynamic in Speech Enhacement Models"
+  authors: "Yair Amar, Amir Ivry, Israel Cohen"
+  venue: "Arxiv (submitted to ICASSP)"
+  year: 2025
+  link: "https://arxiv.org/pdf/2512.00482"
+  code: ""
+  demo: ""
+  project: ""
+  video: ""
+  selected: False
+
 - title: "MAPSS: Manifold-based Assessment of Perceptual Source Separation"
   authors: "Amir Ivry, Samuele Cornell, Shinji Watanabe"
   venue: "Arxiv (submitted to ICLR)"
