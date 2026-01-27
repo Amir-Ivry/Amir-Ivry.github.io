@@ -120,6 +120,12 @@
   url: ""
   suffix: "Welcome Omer Holtzman to the team!"
 
+- date: 2025-12
+  prefix: "👋"
+  link_text: ""
+  url: ""
+  suffix: "Welcome Kfir Levy to the team!"
+
 # 🎤 Lectures (parsed from CV)
 
 - date: 2020-09
@@ -166,6 +172,11 @@
 
 
 # 📄 Publications
+- date: 2026-01
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "https://arxiv.org/abs/2509.09212v1"
+  suffix: "\"MAPSS: Manifold-based Assessment of Perceptual Source Separation\" has been accepted to ICLR!"
 
 - date: 2025-12
   prefix: "📄 Our"
