@@ -22,8 +22,8 @@
 
 - title: "MAPSS: Manifold-based Assessment of Perceptual Source Separation"
   authors: "Amir Ivry, Samuele Cornell, Shinji Watanabe"
-  venue: "Arxiv (submitted to ICLR)"
-  year: 2025
+  venue: "ICLR"
+  year: 2026
   link: "https://arxiv.org/abs/2509.09212"
   code: "https://github.com/Amir-Ivry/MAPSS-measures"
   demo: "https://huggingface.co/spaces/AIvry/MAPSS-measures"
