@@ -1,3 +1,13 @@
+- title: "LALM-as-a-Judge: Benchmarking Large Audio-Language Models for Safety Evaluation in Multi-Turn Spoken Dialogues"
+  authors: "Amir Ivry, Shinji Watanabe"
+  venue: ""
+  year: 2026
+  link: "/assets/papers/Audio_LLMs_as_SDS_Safety_Judges_Preprint.pdf"
+  code: ""
+  project: ""
+  video: ""
+  selected: false
+
 - title: "Automated Tip-and-Cue Framework for Optimized Satellite Tasking and Visual Intelligence"
   authors: "Gil Weissman, Amir Ivry, Israel Cohen"
   venue: "Arxiv (submitted to IEEE Transactions on Geoscience and Remote Sensing)"
