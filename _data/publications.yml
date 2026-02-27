@@ -34,7 +34,7 @@
   authors: "Amir Ivry, Samuele Cornell, Shinji Watanabe"
   venue: "ICLR"
   year: 2026
-  link: "https://arxiv.org/abs/2509.09212"
+  link: "/assets/papers/MAPSS_ICLR26.pdf"
   code: "https://github.com/Amir-Ivry/MAPSS-measures"
   demo: "https://huggingface.co/spaces/AIvry/MAPSS-measures"
   project: ""
