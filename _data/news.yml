@@ -175,8 +175,8 @@
 - date: 2026-01
   prefix: "📄 Our"
   link_text: "paper"
-  url: "https://arxiv.org/abs/2509.09212v1"
-  suffix: "\"MAPSS: Manifold-based Assessment of Perceptual Source Separation\" has been accepted to ICLR!"
+  url: "/assets/papers/MAPSS_ICLR26.pdf"
+  suffix: "\"MAPSS: Manifold-based Assessment of Perceptual Source Separation\" has been accepted to ICLR 2026!"
 
 - date: 2025-12
   prefix: "📄 Our"
