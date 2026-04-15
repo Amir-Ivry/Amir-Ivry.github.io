@@ -11,3 +11,7 @@ msc:
   - name: "Omer Holtzman"
     photo: "/assets/img/team/Omer_Holtzman.jpg"
     field: "Multi-instrument Music Improvisation Generation from Real Musical Cues <br> (Joint supervision with Prof. Israel Cohen)"
+
+  - name: "Kfir Levi"
+    photo: "/assets/img/team/Kfir.jpeg"
+    field: "Small and Expert Audio Language Models <br> (Joint supervision with Prof. Israel Cohen)"
