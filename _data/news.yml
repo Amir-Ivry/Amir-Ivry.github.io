@@ -74,16 +74,16 @@
   prefix: "🎓"
   link_text: ""
   url: ""
-  suffix: "I will re-serve as a Teaching Assistent in the Graduate Course \"Array Signal Processing and Analysis\", led by Prof. Israel Cohen!"
+  suffix: "I will re-serve as a Teaching Assistant in the Graduate Course \"Array Signal Processing and Analysis\", led by Prof. Israel Cohen!"
 
 - date: 2019-01
   prefix: "🎓"
   link_text: ""
   url: ""
-  suffix: "I will serve as a Teaching Assistent in the Graduate Course \"Array Signal Processing and Analysis\", led by Prof. Israel Cohen!"
+  suffix: "I will serve as a Teaching Assistant in the Graduate Course \"Array Signal Processing and Analysis\", led by Prof. Israel Cohen!"
 
 - date: 2023-12
-  prefix: "🎓 I officialy have a"
+  prefix: "🎓 I officially have a"
   link_text: "PhD"
   url: "/assets/papers/PhD_thesis_Ivry.pdf"
   suffix: "in Electrical and Computer Engineering from the Technion!"
@@ -140,7 +140,7 @@
   prefix: "🎤 I gave a"
   link_text: "talk"
   url: "https://www.youtube.com/watch?v=adYg43xZG0c&t=114s"
-  suffix: "on \"Trustworhthy Voice Agents\" in the Conversational AI Reading Group!"
+  suffix: "on \"Trustworthy Voice Agents\" in the Conversational AI Reading Group!"
 
 - date: 2020-09
   prefix: "🎤"
