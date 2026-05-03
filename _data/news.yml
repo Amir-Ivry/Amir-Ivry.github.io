@@ -1,3 +1,11 @@
+# 🏅 Demos
+
+- date: 2026-05
+  prefix: "💻"
+  link_text: ""
+  url: ""
+  suffix: "Congratulaitons to Yair Amar and Gil Weissman for having their demos accepted to ICASSP 2026!"
+  
 # 🏅 Awards & Recognition
 
 - date: 2020-06
@@ -128,6 +136,12 @@
 
 # 🎤 Lectures (parsed from CV)
 
+- date: 2026-04
+  prefix: "🎤 "I gave a"
+  link_text: "talk"
+  url: "https://www.youtube.com/watch?v=adYg43xZG0c&t=114s"
+  suffix: "on \"Trustworhthy Voice Agents\" in the Conversational AI Reading Group!"
+
 - date: 2020-09
   prefix: "🎤"
   link_text: ""
@@ -172,6 +186,12 @@
 
 
 # 📄 Publications
+- date: 2026-05
+  prefix: "📄 Our"
+  link_text: "paper"
+  url: "/assets/papers/Audio_LLMs_as_SDS_Safety_Judges_Preprint.pdf"
+  suffix: "\"LALM-as-a-Judge\" has been accepted to ICML (International Conf. on Machine Learning)!"
+
 - date: 2026-02
   prefix: "📄 Our"
   link_text: "paper"
