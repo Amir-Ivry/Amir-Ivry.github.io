@@ -1,12 +1,12 @@
 - title: "LALM-as-a-Judge: Benchmarking Large Audio-Language Models for Safety Evaluation in Multi-Turn Spoken Dialogues"
   authors: "Amir Ivry, Shinji Watanabe"
-  venue: "Arxiv"
+  venue: "ICML (International Conf. on Machine Learning)"
   year: 2026
   link: "/assets/papers/Audio_LLMs_as_SDS_Safety_Judges_Preprint.pdf"
   code: ""
   project: ""
   video: ""
-  selected: false
+  selected: true
 
 - title: "Automated Tip-and-Cue Framework for Optimized Satellite Tasking and Visual Intelligence"
   authors: "Gil Weissman, Amir Ivry, Israel Cohen"
@@ -32,7 +32,7 @@
 
 - title: "MAPSS: Manifold-based Assessment of Perceptual Source Separation"
   authors: "Amir Ivry, Samuele Cornell, Shinji Watanabe"
-  venue: "ICLR"
+  venue: "ICLR (International Conf. on Learning Representations)"
   year: 2026
   link: "/assets/papers/MAPSS_ICLR26.pdf"
   code: "https://github.com/Amir-Ivry/MAPSS-measures"
