@@ -137,7 +137,7 @@
 # 🎤 Lectures (parsed from CV)
 
 - date: 2026-04
-  prefix: "🎤 "I gave a"
+  prefix: "🎤 I gave a"
   link_text: "talk"
   url: "https://www.youtube.com/watch?v=adYg43xZG0c&t=114s"
   suffix: "on \"Trustworhthy Voice Agents\" in the Conversational AI Reading Group!"
