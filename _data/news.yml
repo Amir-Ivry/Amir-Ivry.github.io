@@ -213,8 +213,8 @@
 - date: 2025-12
   prefix: "📄 Yair's first"
   link_text: "paper"
-  url: "https://arxiv.org/pdf/2512.00482"
-  suffix: "\"Beyond Performance: Probing Representation Dynamics in Speech Enhancement Models\" is now available on Arxiv!"
+  url: "assets/papers/SE_probing.pdf"
+  suffix: "\"Where Does Speech Enhancement Adapt? Probing Study Under Controlled Degradation\" is now available on Arxiv!"
 
 - date: 2025-09
   prefix: "📄 Our"
