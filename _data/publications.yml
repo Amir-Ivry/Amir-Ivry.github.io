@@ -19,10 +19,10 @@
   video: ""
   selected: False
   
-- title: "Beyond Performance: Probing Representations Dynamic in Speech Enhacement Models"
+- title: "Where Does Speech Enhancement Adapt? Probing Study under Controlled Degradation"
   authors: "Yair Amar, Amir Ivry, Israel Cohen"
-  venue: "Arxiv (submitted to ICASSP)"
-  year: 2025
+  venue: "Arxiv (submitted to MDPI Sensors)"
+  year: 2026
   link: "https://arxiv.org/pdf/2512.00482"
   code: ""
   demo: ""
