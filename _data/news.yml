@@ -213,7 +213,7 @@
 - date: 2026-04
   prefix: "📄 Yair's first"
   link_text: "paper"
-  url: "assets/papers/SE_probing.pdf"
+  url: "https://arxiv.org/pdf/2512.00482"
   suffix: "\"Where Does Speech Enhancement Adapt? Probing Study Under Controlled Degradation\" is now available on Arxiv!"
 
 - date: 2025-09
