@@ -1,3 +1,13 @@
+- title: "Task-Aware Answer Preservation under Audio Compression for Large Audio Language Models"
+  authors: "Amir Ivry"
+  venue: "Arxiv"
+  year: 2026
+  link: "https://arxiv.org/pdf/2605.06631"
+  code: ""
+  project: ""
+  video: ""
+  selected: false
+
 - title: "LALM-as-a-Judge: Benchmarking Large Audio-Language Models for Safety Evaluation in Multi-Turn Spoken Dialogues"
   authors: "Amir Ivry, Shinji Watanabe"
   venue: "ICML (International Conf. on Machine Learning)"
