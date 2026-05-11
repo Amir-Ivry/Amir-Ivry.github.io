@@ -187,6 +187,12 @@
 
 # 📄 Publications
 - date: 2026-05
+  prefix: "📄 My first solo"
+  link_text: "paper"
+  url: "https://arxiv.org/pdf/2605.06631"
+  suffix: "\"Task-Aware Answer Preservation under Audio Compression for Large Audio Language Models\" is available on Arxiv!"
+
+- date: 2026-05
   prefix: "📄 Our"
   link_text: "paper"
   url: "/assets/papers/Audio_LLMs_as_SDS_Safety_Judges_Preprint.pdf"
