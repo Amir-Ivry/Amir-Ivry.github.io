@@ -136,10 +136,22 @@
 
 # 🎤 Lectures (parsed from CV)
 
+- date: 2026-05
+  prefix: "🎤 I gave a"
+  link_text: "talk"
+  url: "https://www.youtube.com/watch?v=4XBW6XdmCoo&feature=youtu.be"
+  suffix: "on \"Trustworthy Voice Agents\" in a webinar host by The Security And Privacy In Speech Communication Association!"
+
+- date: 2026-05
+  prefix: "🎤 I gave a"
+  link_text: ""
+  url: ""
+  suffix: "talk on \"Trustworthy Voice Agents\" for Prof. Roi Reichart's group in the DDS Faculty, Technion!"
+
 - date: 2026-04
   prefix: "🎤 I gave a"
   link_text: "talk"
-  url: "https://www.youtube.com/watch?v=adYg43xZG0c&t=114s"
+  url: "https://www.youtube.com/watch?v=adYg43xZG0c"
   suffix: "on \"Trustworthy Voice Agents\" in the Conversational AI Reading Group!"
 
 - date: 2020-09
