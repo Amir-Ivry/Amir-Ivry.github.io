@@ -136,6 +136,13 @@
 
 # 🎤 Lectures (parsed from CV)
 
+- date: 2026-06
+  prefix: "🎤 I gave a"
+  link_text: ""
+  url: ""
+  suffix: "talk on \"Trustworthy Voice Agents\" in Google!"
+
+
 - date: 2026-05
   prefix: "🎤 I gave a"
   link_text: "talk"
