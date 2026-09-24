@@ -1,3 +1,13 @@
+- title: "Voice Agents under Acoustic Stress: From Signal Degradation to Interaction and Action"
+  authors: "Amir Ivry, Kai-Wei Chang, Lin Zhang, Sharon Gannot, Carlos Busso"
+  venue: "Arxiv (submitted to ICASSP)"
+  year: 2026
+  link: ""
+  code: ""
+  project: ""
+  video: ""
+  selected: false
+
 - title: "Task-Aware Answer Preservation under Audio Compression for Large Audio Language Models"
   authors: "Amir Ivry"
   venue: "Arxiv (submitted to NeurIPS)"
