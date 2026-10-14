@@ -28,6 +28,8 @@ nav:
     url: /publications/
   - title: Team
     url: /team/
+  - title: TRACE
+    url: /trace/
 
 plugins:
   - jekyll-sitemap
