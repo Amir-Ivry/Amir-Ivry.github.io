@@ -3,8 +3,8 @@
   venue: "Arxiv (submitted to ICASSP)"
   year: 2026
   link: "https://arxiv.org/abs/2609.29452"
-  code: ""
-  project: ""
+  code: "https://github.com/Amir-Ivry/trace"
+  project: "https://amir-ivry.github.io/trace/"
   video: ""
   selected: false
 
